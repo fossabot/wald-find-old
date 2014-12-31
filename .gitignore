@@ -1,0 +1,12 @@
+*~
+*.pyc
+/bin/flake8
+/bin/ipython
+/bin/nosetests
+/bin/pip
+/bower_components/
+/etc/config.ini
+/etc/fuseki.ttl
+/jena-fuseki
+/node_modules/
+/store/*.tdb
