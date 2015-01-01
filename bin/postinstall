@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd node_modules/when && npm run browserify
+cd -
+cd node_modules/n3 && npm install && npm run browser
