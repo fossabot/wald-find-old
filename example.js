@@ -7,7 +7,7 @@ var query = require('./index.js');
 var Namespaces = require ('./lib/namespaces');
 var ns = new Namespaces ();
 
-var wq = query.connect('ldf:http://localhost:4014/wikidata', ns);
+var wq = query.connect('ldf:http://data.wikidataldf.com/wikidata', ns);
 
 var result = wq.query("wikidata:Q192755", {
     id: "@id",
@@ -19,9 +19,7 @@ var result = wq.query("wikidata:Q192755", {
 });
 
 result.then(function (data) {
-    console.log('--- [ final result ] -------------------------------------');
     console.log(JSON.stringify(data, null, "    "));
 }).catch (function (error) {
-    console.log('--- [ final error ] -------------------------------------');
-    console.log(error.message);
+    console.log('ERROR:', error.message);
 });
