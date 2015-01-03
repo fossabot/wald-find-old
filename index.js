@@ -12,15 +12,9 @@ wald.query = wald.query ? wald.query : {};
 (function () {
     "use strict";
 
-    if (typeof require === 'function') {
-        var Lazy = require ('lazy.js');
-        var N3 = require ('n3');
-        var traverse = require ('traverse');
-        var when = require ('when');
-    }
-
-    var engine =  typeof require === 'function' ? require ('./lib/engine')  : wald.query.engine;
-    var filters = typeof require === 'function' ? require ('./lib/filters') : wald.query.filters;
+    var engine     = typeof require === 'function' ? require ('./lib/engine')     : wald.query.engine;
+    var filters    = typeof require === 'function' ? require ('./lib/filters')    : wald.query.filters;
+    var Namespaces = typeof require === 'function' ? require ('./lib/namespaces') : wald.query.Namespaces;
 
     var Drivers = function () {
         this._drivers = {};
@@ -46,8 +40,9 @@ wald.query = wald.query ? wald.query : {};
         require ('./lib/drivers/ldf') (wald.query.drivers);
     }
 
-    var Query = function (dsn) {
-        this._connection = wald.query.drivers.connect (dsn);
+    var Query = function (dsn, ns) {
+        this.connection = wald.query.drivers.connect (dsn);
+        this.namespaces = ns;
     };
 
     for (var key in filters) {
@@ -75,8 +70,12 @@ wald.query = wald.query ? wald.query : {};
     *
     * @param string connection data source name
     */
-    wald.query.connect = function (connection) {
-        return new Query (connection);
+    wald.query.connect = function (connection, namespaces) {
+        if (namespaces == null) {
+            namespaces = new Namespaces ();
+        }
+
+        return new Query (connection, namespaces);
     };
 })();
 

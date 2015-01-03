@@ -4,18 +4,18 @@ var request = require('request');
 var when = require('when');
 var query = require('./index.js');
 
-var wq = query.connect('ldf:http://localhost:4014/wikidata');
+var Namespaces = require ('./lib/namespaces');
+var ns = new Namespaces ();
 
-var result = wq.query("http://www.wikidata.org/entity/Q192755", {
+var wq = query.connect('ldf:http://localhost:4014/wikidata', ns);
+
+var result = wq.query("wikidata:Q192755", {
     id: "@id",
-    name: wq.literal (wq.first ("http://www.w3.org/2000/01/rdf-schema#label")),
-    performer: wq.subquery (
-        "http://www.wikidata.org/entity/P175s",
-        wq.subquery ("http://www.wikidata.org/entity/P175v", {
-            id: "@id",
-            name: wq.first (wq.literal ("http://www.w3.org/2000/01/rdf-schema#label")),
-        })
-    )
+    name: wq.literal (wq.first ("rdfs:label")),
+    performer: wq.subquery ("wikidata:P175s", wq.subquery ("wikidata:P175v", {
+        id: "@id",
+        name: wq.first (wq.literal ("rdfs:label")),
+    }))
 });
 
 result.then(function (data) {
