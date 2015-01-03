@@ -12,9 +12,15 @@ wald.query = wald.query ? wald.query : {};
 (function () {
     "use strict";
 
+    if (typeof require === 'function') {
+        var Lazy = require ('lazy.js');
+        var N3 = require ('n3');
+        var traverse = require ('traverse');
+        var when = require ('when');
+    }
+
     var engine =  typeof require === 'function' ? require ('./lib/engine')  : wald.query.engine;
     var filters = typeof require === 'function' ? require ('./lib/filters') : wald.query.filters;
-    var util =    typeof require === 'function' ? require ('./lib/util') : wald.query.util;
 
     var Drivers = function () {
         this._drivers = {};
@@ -35,14 +41,9 @@ wald.query = wald.query ? wald.query : {};
     };
 
     wald.query.drivers = new Drivers();
-
     if (typeof require === 'function') {
-        var Lazy = require ('lazy.js');
-        var N3 = require ('n3');
-        var traverse = require ('traverse');
-        var when = require ('when');
-
-        require ('./lib/drivers/ldf.js') (wald.query.drivers);
+        // FIXME: implement hdt as well.
+        require ('./lib/drivers/ldf') (wald.query.drivers);
     }
 
     var Query = function (dsn) {
@@ -55,58 +56,22 @@ wald.query = wald.query ? wald.query : {};
         }
     }
 
-    Query.prototype.subquery = function (query_or_term, model) {
-        var qb = engine.querybuilder (query_or_term);
-
-        if (model) {
-            for (var key in model) {
-                if (model.hasOwnProperty (key)) {
-                    model[key] = engine.querybuilder (model[key]);
-                }
-            }
+    for (var key in engine) {
+        if (engine.hasOwnProperty (key)) {
+            Query.prototype[key] = engine[key];
         }
-
-        return qb;
-    };
-
-    Query.prototype.query = function (subject, query_model) {
-        var self = this;
-
-        var result_model = {};
-        var wait_for = Lazy (query_model).map (function (item, key) {
-            var promise = engine.querybuilder (item).execute (self._connection, subject);
-
-            promise.then (function (results) {
-                result_model[key] = util.unwrap_lazy (results);
-            }).catch (function (error) {
-                console.log('ERROR:', error.message);
-            });
-
-            return promise;
-        }).toArray ();
-
-        var deferred = when.defer();
-
-        when.settle(wait_for).then (function () {
-            deferred.resolve (result_model);
-        });
-
-        return deferred.promise;
-    };
+    }
 
     /**
     * Connect to a data source, and then initialize and return a query object with that
     * connection.
     *
-    * This constructor takes a [DSN](https://en.wikipedia.org/wiki/Data_source_name) which
-    * describes a connection to a data source.  The scheme:// part should be the name of a
-    * registered driver.  Examples:
+    * This takes a [DSN](https://en.wikipedia.org/wiki/Data_source_name) which describes a
+    * connection to a data source.  The scheme:// part should be the name of a registered driver.
+    * Examples:
     *
     *     // connect to a local [linked data fragments](http://linkeddatafragments.org/) server
-    *     var q = new wald.query.Query("ldf://localhost:5000/wikidata/");
-    *
-    *     // use a local RDF [HDT](http://www.rdfhdt.org/) file.
-    *     var r = new wald.query.Query("hdt://data/wikidata-2014-05-26.hdt");
+    *     var q = new wald.query.Query("ldf:http://localhost:5000/wikidata/");
     *
     * @param string connection data source name
     */
