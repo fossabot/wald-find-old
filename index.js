@@ -1,6 +1,6 @@
 /**
- *   This file is part of wald-elements
- *   Copyright (C) 2014  Kuno Woudt <kuno@frob.nl>
+ *   This file is part of wald-query.
+ *   Copyright (C) 2015  Kuno Woudt <kuno@frob.nl>
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of copyleft-next 0.3.0.  See LICENSE.txt.
@@ -11,6 +11,10 @@ wald.query = wald.query ? wald.query : {};
 
 (function () {
     "use strict";
+
+    var engine =  typeof require === 'function' ? require ('./lib/engine')  : wald.query.engine;
+    var filters = typeof require === 'function' ? require ('./lib/filters') : wald.query.filters;
+    var util =    typeof require === 'function' ? require ('./lib/util') : wald.query.util;
 
     var Drivers = function () {
         this._drivers = {};
@@ -33,9 +37,11 @@ wald.query = wald.query ? wald.query : {};
     wald.query.drivers = new Drivers();
 
     if (typeof require === 'function') {
+        var Lazy = require ('lazy.js');
+        var N3 = require ('n3');
         var traverse = require ('traverse');
-        var when = require('when');
-        wald.query.transform = require ('./lib/transform.js');
+        var when = require ('when');
+
         require ('./lib/drivers/ldf.js') (wald.query.drivers);
     }
 
@@ -43,27 +49,49 @@ wald.query = wald.query ? wald.query : {};
         this._connection = wald.query.drivers.connect (dsn);
     };
 
-    Query.prototype.query = function (subject, model) {
+    for (var key in filters) {
+        if (filters.hasOwnProperty (key)) {
+            Query.prototype[key] = filters[key];
+        }
+    }
 
-        var query_rows = [];
+    Query.prototype.subquery = function (query_or_term, model) {
+        var qb = engine.querybuilder (query_or_term);
 
-        traverse(model).forEach (function (item) {
-            if (!item) {
-                return;
+        if (model) {
+            for (var key in model) {
+                if (model.hasOwnProperty (key)) {
+                    model[key] = engine.querybuilder (model[key]);
+                }
             }
+        }
 
-            if (typeof item === 'object' && item.hasOwnProperty('query')) {
-                query_rows.push (item.query);
-            }
+        return qb;
+    };
+
+    Query.prototype.query = function (subject, query_model) {
+        var self = this;
+
+        var result_model = {};
+        var wait_for = Lazy (query_model).map (function (item, key) {
+            var promise = engine.querybuilder (item).execute (self._connection, subject);
+
+            promise.then (function (results) {
+                result_model[key] = util.unwrap_lazy (results);
+            }).catch (function (error) {
+                console.log('ERROR:', error.message);
+            });
+
+            return promise;
+        }).toArray ();
+
+        var deferred = when.defer();
+
+        when.settle(wait_for).then (function () {
+            deferred.resolve (result_model);
         });
 
-        var result_rows = this._connection.queryMultiple (query_rows);
-
-        when.settle (result_rows).then (function (results) {
-            console.log ('results:', results[0].value.value['@graph']);
-        });
-
-        return null;
+        return deferred.promise;
     };
 
     /**
