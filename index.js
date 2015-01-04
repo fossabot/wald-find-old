@@ -38,6 +38,7 @@ wald.query = wald.query ? wald.query : {};
     if (typeof require === 'function') {
         // FIXME: implement hdt as well.
         require ('./lib/drivers/ldf') (wald.query.drivers);
+        require ('./lib/drivers/web') (wald.query.drivers);
     }
 
     var Query = function (dsn, ns) {
