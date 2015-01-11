@@ -27,9 +27,11 @@
     "ldf-client": "LinkedDataFragments/Client.js#develop",
     "n3": "^0.4.0",
     "request": "^2.51.0",
+    "underscore": "^1.7.0",
     "when": "git://github.com/cujojs/when#3.6.4"
   },
   "devDependencies": {
-    "eslint": "^0.11.0"
+    "eslint": "^0.11.0",
+    "mocha": "^2.1.0"
   }
 }

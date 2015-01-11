@@ -1,0 +1,28 @@
+{
+    "title": "wald:query prototype",
+    "baseURL": "http://localhost:4014/",
+    "datasources": {
+        "wikidata": {
+            "title": "Wikidata 2014-05-26",
+            "description": "Wikidata 2014-05-26",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "homepage": "http://tools.wmflabs.org/wikidata-exports/rdf/",
+            "type": "HdtDatasource",
+            "settings": {
+                "file": "/mnt/gavroche/annex/data/wikidata/20140526/wikidata-2014-05-26.hdt"
+            }
+        },
+        "licensedb": {
+            "title": "LicenseDB 2014-01-09",
+            "description": "Dump of The License Database, January 9th 2014",
+            "license": "CC0 1.0 Universal",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "homepage": "https://licensedb.org/id/",
+            "type": "HdtDatasource",
+            "settings": {
+                "file": "data/licensedb.2014-01-19.hdt"
+            }
+        }
+    }
+}

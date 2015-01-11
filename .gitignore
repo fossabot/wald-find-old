@@ -10,3 +10,4 @@
 /jena-fuseki
 /node_modules/
 /store/*.tdb
+/data/licensedb.2014-01-19.hdt.index
