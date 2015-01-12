@@ -1,5 +1,5 @@
 {
-  "name": "waldmeta",
+  "name": "wald-find",
   "version": "0.4.0",
   "description": "wald:meta is vapourware.",
   "repository": {
@@ -23,10 +23,10 @@
     "browserify": "^8.0.2",
     "jsdom": "^2.0.0",
     "jsonld": "^0.3.19",
-    "lazy.js": "^0.4.0",
     "ldf-client": "LinkedDataFragments/Client.js#develop",
     "n3": "^0.4.0",
     "request": "^2.51.0",
+    "traverse": "^0.6.6",
     "underscore": "^1.7.0",
     "when": "git://github.com/cujojs/when#3.6.4"
   },
