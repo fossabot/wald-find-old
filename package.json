@@ -4,7 +4,7 @@
   "description": "wald:meta is vapourware.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:warpr/waldmeta.git"
+    "url": "git@github.com:warpr/wald-find.git"
   },
   "keywords": [
     "Linked Data"
@@ -12,7 +12,7 @@
   "author": "Kuno Woudt <kuno@frob.nl>",
   "license": "copyleft-next 0.3.0",
   "bugs": {
-    "url": "https://github.com/warpr/waldmeta/issues"
+    "url": "https://github.com/warpr/wald-find/issues"
   },
   "homepage": "http://waldmeta.org/",
   "scripts": {
