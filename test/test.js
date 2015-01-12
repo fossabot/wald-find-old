@@ -11,8 +11,8 @@
 var assert = require ('assert');
 var _ = require ('underscore');
 
-var query = require ('../lib/query.js');
-var core = require ('../lib/core.js');
+var query = require ('../lib/query');
+var core = require ('../lib/core');
 
 var wq = query.connect ('ldf:http://localhost:4014/licensedb');
 

@@ -1,8 +1,8 @@
 
-wald-query
-==========
+wald:find
+=========
 
-wald-query is a prototype DSL for querying linked data.  It currently includes a driver to query
+wald:find is a prototype DSL for querying linked data.  It currently includes a driver to query
 Linked Data Fragments servers, though the core query language isn't tied to this (e.g. I imagine
 writing HDT or SPARQL drivers should be fairly easy).
 
@@ -19,17 +19,18 @@ example
 Here is a basic example which asks wikidata for some information about Britney Spears' Blackout
 album:
 
-    var wq = query.connect('ldf:http://data.wikidataldf.com/wikidata', ns);
+    var wq = query.connect('ldf:http://data.wikidataldf.com/wikidata');
 
-    var result = wq.query("wikidata:Q192755", {
-        id: "@id",
-        name: wq.literal (wq.first ("rdfs:label")),
-        performer: wq.subquery ("wikidata:P175s", wq.subquery ("wikidata:P175v", {
-            id: "@id",
-            name: wq.first (wq.literal ("rdfs:label")),
-        }))
-    });
-
+    var result = wq.query('wikidata:Q192755', {
+        id: '@id',
+        name: 'rdfs:label',
+        performer: wq.subquery ('wikidata:P175s', {
+            artist: wq.subquery ('wikidata:P175v', {
+                id: '@id',
+                name: 'rdfs:label',
+            })
+        })
+    }).then (core.normalizeModel);
 
 `wq.query()` will return a promise which will resolve to:
 
@@ -37,13 +38,25 @@ album:
         "id": "http://www.wikidata.org/entity/Q192755",
         "name": "Blackout",
         "performer": {
-            "id": "http://www.wikidata.org/entity/Q11975",
-            "name": "Britney Jean Spears"
+            "artist": {
+                "id": "http://www.wikidata.org/entity/Q11975",
+                "name": "Britney Jean Spears"
+            }
         }
     }
 
+wikidata relations unfortunately involve an extra indirection (which is why this result
+has "performer.artist" as a path, instead of just "performer").
 
-Run `node example.js` to see this query in action.
+Run `node examples/wikidata.js` to see this query in action, or see the other examples
+in the examples folder.
+
+
+Running tests
+=============
+
+Tests will need a linked data fragments server running, you can start one with the test
+configuration by running `bin/ldf`.  Afterward running `npm test` should work.
 
 
 License
