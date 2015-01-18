@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>wald:find LicenseDB example</title>
+    </head>
+    <style>
+     body {
+         font-family: helvetica, ariel, sans-serif;
+         color: #444;
+     }
+
+     .license-box {
+         border: 1px solid #ccc;
+         border-radius: 0.5em;
+         padding: 0.5em;
+         margin: 8em auto auto auto;
+         width: 20em;
+     }
+
+     img.logo { float:right; padding: 0.5em; }
+
+     .label { font-size: 80%; color: #888; font-weight: bolder; }
+
+     a { color: #444; text-decoration: none; }
+
+     h1 { width: 100%; border-bottom: 1px solid #ccc; }
+
+    </style>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/hogan.js/dist/hogan-3.0.2.js"></script>
+    <script src="../js/find.js"></script>
+    <script id="license-box" type="template/mustache">
+     <div class="license-box">
+       <img src="{{logo}}" class="logo" />
+       <h2><a href="{{sameAs}}">{{identifier}}</a></h2>
+       <p>
+           <span class="label">License Name:</span><br/>
+           <a href="{{id}}">{{name}} {{version}}</a><br />
+       </p>
+       <p>
+           <span class="label">Links:</span><br />
+           <a href="{{plaintext}}">plain-text</a>, <a href="{{legalcode}}">legalcode</a>.
+       </p>
+     </div>
+    </script>
+    <script>
+     var find = require('find');
+     var wf = find.connect('ldf:http://localhost:4014/licensedb');
+
+     wf.namespaces.addPrefix("foaf", "http://xmlns.com/foaf/0.1/");
+     wf.namespaces.addPrefix("dcterms", "http://purl.org/dc/terms/");
+     wf.namespaces.addPrefix("cc", "http://creativecommons.org/ns#");
+     wf.namespaces.addPrefix("li", "https://licensedb.org/ns#");
+
+     var model = {
+         id: '@id',
+         logo: 'foaf:logo',
+         sameAs: [ 'owl:sameAs' ],
+         name: 'dcterms:title',
+         identifier: 'li:id',
+         version: 'dcterms:hasVersion',
+         plaintext: 'li:plaintext',
+         legalcode: 'cc:legalcode'
+     };
+
+     var template = Hogan.compile ($('#license-box').text());
+
+     var result = wf.query('http://gnu.org/licenses/gpl-3.0.html', model);
+
+     result.then (find.normalizeModel).then (function (data) {
+         $('body').append(template.render (data));
+     }).catch (function (error) {
+         console.log ('ERROR:', error.message);
+     });
+    </script>
+    <body>
+        <h1>License details demo</h1>
+    </body>
+</html>

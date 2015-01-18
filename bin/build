@@ -1,6 +1,6 @@
 #!/bin/sh
 
-node_modules/.bin/browserify lib/find.js --outfile js/find.js
-node_modules/.bin/browserify lib/find.js --debug --outfile js/find.debug.js
+node_modules/.bin/browserify --require ./lib/find:find --outfile js/find.js
+node_modules/.bin/browserify --require ./lib/find:find --debug --outfile js/find.debug.js
 node_modules/.bin/uglifyjs js/find.js --screw-ie8 --output js/find.min.js
 
