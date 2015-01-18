@@ -37,10 +37,10 @@
          var find = require('find');
          var wf = find.connect('ldfb:http://localhost:4014/licensedb');
 
-         wf.namespaces.addPrefix("foaf", "http://xmlns.com/foaf/0.1/");
-         wf.namespaces.addPrefix("dcterms", "http://purl.org/dc/terms/");
-         wf.namespaces.addPrefix("cc", "http://creativecommons.org/ns#");
-         wf.namespaces.addPrefix("li", "https://licensedb.org/ns#");
+         wf.namespaces.addPrefix('foaf', 'http://xmlns.com/foaf/0.1/');
+         wf.namespaces.addPrefix('dcterms', 'http://purl.org/dc/terms/');
+         wf.namespaces.addPrefix('cc', 'http://creativecommons.org/ns#');
+         wf.namespaces.addPrefix('li', 'https://licensedb.org/ns#');
 
          var model = {
              id: '@id',

@@ -6,6 +6,8 @@
  *   it under the terms of copyleft-next 0.3.0.  See LICENSE.txt.
  */
 
+'use strict';
+
 /* global suite test find:true */
 
 var N3 = require ('n3');
@@ -19,13 +21,17 @@ require ('../lib/drivers/ldfb') (find.drivers);
 
 var licensedb = 'http://localhost:4014/licensedb';
 
-suite ('Query', function () {
-    'use strict';
+var clients = {
+    'ldf-client': find.connect ('ldf:' + licensedb),
+    'ldf-b': find.connect ('ldfb:' + licensedb)
+};
 
-    leche.withData ({
-        'ldf-client': find.connect ('ldf:' + licensedb),
-        'ldf-b': find.connect ('ldfb:' + licensedb),
-    }, function (wf) {
+Object.keys(clients).forEach (function (key) {
+    clients[key].namespaces.addPrefix('dcterms', 'http://purl.org/dc/terms/');
+});
+
+suite ('Query', function () {
+    leche.withData (clients, function (wf) {
         test ('simple terms', function () {
             var result = wf.query ('http://gnu.org/licenses/gpl-3.0.html', {
                 id: '@id',
