@@ -1,5 +1,5 @@
 {
-    "title": "wald:query prototype",
+    "title": "wald:find prototype",
     "baseURL": "http://localhost:4014/",
     "datasources": {
         "licensedb": {

@@ -1,26 +1,24 @@
 /**
- *   This file is part of wald-query.
+ *   This file is part of wald:find.
  *   Copyright (C) 2015  Kuno Woudt <kuno@frob.nl>
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of copyleft-next 0.3.0.  See LICENSE.txt.
  */
 
-/* global suite test */
+/* global suite test find:true */
 
 var assert = require ('assert');
 var _ = require ('underscore');
+var find = require ('../lib/find');
 
-var query = require ('../lib/query');
-var core = require ('../lib/core');
-
-var wq = query.connect ('ldf:http://localhost:4014/licensedb');
+var wf = find.connect ('ldf:http://localhost:4014/licensedb');
 
 suite ('Query', function () {
     'use strict';
 
     test ('simple terms', function () {
-        var result = wq.query ('http://gnu.org/licenses/gpl-3.0.html', {
+        var result = wf.query ('http://gnu.org/licenses/gpl-3.0.html', {
             id: '@id',
             sameAs: [ 'owl:sameAs' ],
             name: 'dcterms:title',
@@ -34,10 +32,10 @@ suite ('Query', function () {
     });
 
     test ('subquery in array', function () {
-        var result = wq.query ('http://gnu.org/licenses/agpl-3.0.html', {
+        var result = wf.query ('http://gnu.org/licenses/agpl-3.0.html', {
             id: '@id',
             name: 'dcterms:title',
-            replaces: [ wq.subquery ('dcterms:replaces', {
+            replaces: [ wf.subquery ('dcterms:replaces', {
                 id: '@id',
             }) ]
         });
@@ -52,12 +50,12 @@ suite ('Query', function () {
     });
 
     test ('normalize', function () {
-        var result = wq.query ('http://gnu.org/licenses/agpl-3.0.html', {
+        var result = wf.query ('http://gnu.org/licenses/agpl-3.0.html', {
             id: '@id',
             name: 'dcterms:identifier',
             version: 'dcterms:hasVersion',
             titles: [ 'dcterms:title' ],
-        }).then (core.normalizeModel);
+        }).then (find.normalizeModel);
 
         return result.then (function (data) {
             assert.equal (data.id, 'http://gnu.org/licenses/agpl-3.0.html');
@@ -68,10 +66,10 @@ suite ('Query', function () {
     });
 
     test ('language filter', function () {
-        var result = wq.query ('http://creativecommons.org/licenses/by-sa/3.0/', {
+        var result = wf.query ('http://creativecommons.org/licenses/by-sa/3.0/', {
             id: '@id',
             titles: [ 'dcterms:title' ],
-        }).then (core.language ('ko')).then (core.normalizeModel);
+        }).then (find.language ('ko')).then (find.normalizeModel);
 
         return result.then (function (data) {
             var sorted = _(data.titles).sort ();
@@ -83,16 +81,16 @@ suite ('Query', function () {
     });
 
     test ('owl:sameAs', function () {
-        var result = wq.query ('http://gnu.org/licenses/agpl-3.0.html', {
+        var result = wf.query ('http://gnu.org/licenses/agpl-3.0.html', {
             id: '@id',
             name: 'dcterms:title',
             version: 'dcterms:hasVersion',
-            replaces: [ wq.sameAs('dcterms:replaces', {
+            replaces: [ wf.sameAs('dcterms:replaces', {
                 id: '@id',
                 name: 'dcterms:title',
                 version: 'dcterms:hasVersion'
             }) ]
-        }).then (core.normalizeModel);
+        }).then (find.normalizeModel);
 
         return result.then (function (data) {
             var sorted = _(data.replaces).sortBy ('id');
@@ -111,17 +109,17 @@ suite ('Query', function () {
 
 
     test ('turtles', function () {
-        var result = wq.query ('http://gnu.org/licenses/agpl-3.0.html', {
+        var result = wf.query ('http://gnu.org/licenses/agpl-3.0.html', {
             id: '@id',
-            replaces: [ wq.sameAs('dcterms:replaces', {
+            replaces: [ wf.sameAs('dcterms:replaces', {
                 id: '@id',
                 name: 'dcterms:title',
-                replacedBy: [ wq.sameAs('dcterms:isReplacedBy', {
+                replacedBy: [ wf.sameAs('dcterms:isReplacedBy', {
                     id: '@id',
                     name: 'dcterms:title',
                 }) ]
             }) ]
-        }).then (core.normalizeModel);
+        }).then (find.normalizeModel);
 
         return result.then (function (data) {
             var level1 = _(data.replaces).sortBy ('id');

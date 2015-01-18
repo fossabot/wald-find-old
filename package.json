@@ -1,23 +1,10 @@
 {
   "name": "wald-find",
   "version": "0.4.0",
-  "description": "wald:meta is vapourware.",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:warpr/wald-find.git"
-  },
-  "keywords": [
-    "Linked Data"
-  ],
   "author": "Kuno Woudt <kuno@frob.nl>",
   "license": "copyleft-next 0.3.0",
   "bugs": {
     "url": "https://github.com/warpr/wald-find/issues"
-  },
-  "homepage": "http://waldmeta.org/",
-  "scripts": {
-    "test": "bin/test",
-    "postinstall": "bin/postinstall"
   },
   "dependencies": {
     "browserify": "^8.0.2",
@@ -30,9 +17,23 @@
     "underscore": "^1.7.0",
     "when": "git://github.com/cujojs/when#3.6.4"
   },
+  "description": "wald:meta is vapourware.",
   "devDependencies": {
     "eslint": "^0.11.0",
     "ldf-server": "^1.1.3",
     "mocha": "^2.1.0"
+  },
+  "homepage": "http://waldmeta.org/",
+  "scripts": {
+    "test": "bin/test",
+    "postinstall": "bin/postinstall"
+  },
+  "keywords": [
+    "Linked Data"
+  ],
+  "main": "lib/find.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:warpr/wald-find.git"
   }
 }

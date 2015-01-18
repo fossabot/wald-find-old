@@ -1,22 +1,22 @@
 #!/usr/bin/env node
 'use strict';
 
-var query = require('../lib/query');
-var core = require('../lib/core');
+/* global find:true */
+var find = require('../lib/find');
 
-var wq = query.connect('ldf:http://localhost:4014/licensedb');
-var result = wq.query('http://gnu.org/licenses/agpl-3.0.html', {
+var wf = find.connect('ldf:http://localhost:4014/licensedb');
+var result = wf.query('http://gnu.org/licenses/agpl-3.0.html', {
     id: '@id',
     logo: 'foaf:logo',
     sameAs: [ 'owl:sameAs' ],
     name: 'dcterms:title',
     version: 'dcterms:hasVersion',
-    replaces: [ wq.sameAs('dcterms:replaces', {
+    replaces: [ wf.sameAs('dcterms:replaces', {
         id: '@id',
         name: 'dcterms:title',
         version: 'dcterms:hasVersion',
     }) ],
-}).then (core.normalizeModel);
+}).then (find.normalizeModel);
 
 result.then (function (data) {
     console.log (JSON.stringify (data, null, 4));

@@ -1,21 +1,21 @@
 #!/usr/bin/env node
 'use strict';
 
-var query = require('../lib/query');
-var core = require('../lib/core');
+/* global find:true */
+var find = require('../lib/find');
 
-var wq = query.connect('ldf:http://data.wikidataldf.com/wikidata');
+var wf = find.connect('ldf:http://data.wikidataldf.com/wikidata');
 
-var result = wq.query('wikidata:Q192755', {
+var result = wf.query('wikidata:Q192755', {
     id: '@id',
     name: 'rdfs:label',
-    performer: wq.subquery ('wikidata:P175s', {
-        artist: wq.subquery ('wikidata:P175v', {
+    performer: wf.subquery ('wikidata:P175s', {
+        artist: wf.subquery ('wikidata:P175v', {
             id: '@id',
             name: 'rdfs:label',
         })
     })
-}).then (core.normalizeModel);
+}).then (find.normalizeModel);
 
 result.then (function (data) {
     console.log (JSON.stringify (data, null, 4));
