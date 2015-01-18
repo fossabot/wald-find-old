@@ -82,4 +82,61 @@ suite ('Query', function () {
         });
     });
 
+    test ('owl:sameAs', function () {
+        var result = wq.query ('http://gnu.org/licenses/agpl-3.0.html', {
+            id: '@id',
+            name: 'dcterms:title',
+            version: 'dcterms:hasVersion',
+            replaces: [ wq.sameAs('dcterms:replaces', {
+                id: '@id',
+                name: 'dcterms:title',
+                version: 'dcterms:hasVersion'
+            }) ]
+        }).then (core.normalizeModel);
+
+        return result.then (function (data) {
+            var sorted = _(data.replaces).sortBy ('id');
+
+            assert.equal (data.id, 'http://gnu.org/licenses/agpl-3.0.html');
+            assert.equal (data.name, 'GNU Affero General Public License');
+            assert.equal (data.version, '3.0');
+            assert.equal (sorted[0].id, 'http://www.affero.org/agpl2.html');
+            assert.equal (sorted[1].id, 'http://www.affero.org/oagpl.html');
+            assert.equal (sorted[0].name, 'Affero General Public License');
+            assert.equal (sorted[1].name, 'Affero General Public License');
+            assert.equal (sorted[0].version, '2');
+            assert.equal (sorted[1].version, '1');
+        });
+    });
+
+
+    test ('turtles', function () {
+        var result = wq.query ('http://gnu.org/licenses/agpl-3.0.html', {
+            id: '@id',
+            replaces: [ wq.sameAs('dcterms:replaces', {
+                id: '@id',
+                name: 'dcterms:title',
+                replacedBy: [ wq.sameAs('dcterms:isReplacedBy', {
+                    id: '@id',
+                    name: 'dcterms:title',
+                }) ]
+            }) ]
+        }).then (core.normalizeModel);
+
+        return result.then (function (data) {
+            var level1 = _(data.replaces).sortBy ('id');
+
+            // AGPLv2 is replaced by v3.
+            assert.equal (data.id, 'http://gnu.org/licenses/agpl-3.0.html');
+            assert.equal (level1[0].id, 'http://www.affero.org/agpl2.html');
+            assert.equal (level1[0].replacedBy[0].id, data.id);
+
+            var level2 = _(level1[1].replacedBy).sortBy ('id');
+            assert.equal (level2[0].name, 'GNU Affero General Public License');
+            assert.equal (level2[1].name, 'Affero General Public License');
+        });
+    });
+
+
+
 });
