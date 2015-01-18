@@ -4,6 +4,8 @@
 /* global find:true */
 var find = require('../lib/find');
 
+require ('../lib/drivers/web') (find.drivers);
+
 var wf = find.connect('web:');
 
 var mbid = 'https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8';

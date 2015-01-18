@@ -5,9 +5,12 @@
 /bin/nosetests
 /bin/pip
 /bower_components/
+/data/licensedb.2014-01-19.hdt.index
 /etc/config.ini
 /etc/fuseki.ttl
 /jena-fuseki
+/js/find.debug.js
+/js/find.js
+/js/find.min.js
 /node_modules/
 /store/*.tdb
-/data/licensedb.2014-01-19.hdt.index
