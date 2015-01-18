@@ -4,6 +4,10 @@
 /* global find:true */
 var find = require('../lib/find');
 
+// I think wikidata runs an older version of the linked data fragment server which
+// doesn't support application/trig -- which is required by the ldfb driver.
+require ('../lib/drivers/ldf') (find.drivers);
+
 var wf = find.connect('ldf:http://data.wikidataldf.com/wikidata');
 
 var result = wf.query('wikidata:Q192755', {

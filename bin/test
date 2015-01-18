@@ -2,3 +2,4 @@
 
 node_modules/.bin/eslint examples lib test
 node_modules/.bin/mocha --ui tdd --reporter spec
+

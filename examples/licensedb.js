@@ -4,7 +4,7 @@
 /* global find:true */
 var find = require('../lib/find');
 
-var wf = find.connect('ldf:http://localhost:4014/licensedb');
+var wf = find.connect('ldfb:http://localhost:4014/licensedb');
 var result = wf.query('http://gnu.org/licenses/agpl-3.0.html', {
     id: '@id',
     logo: 'foaf:logo',
