@@ -5,6 +5,10 @@
 var find = require('../lib/find');
 
 var wf = find.connect('ldfb:http://localhost:4014/licensedb');
+
+wf.namespaces.addPrefix('foaf', 'http://xmlns.com/foaf/0.1/');
+wf.namespaces.addPrefix('dcterms', 'http://purl.org/dc/terms/');
+
 var result = wf.query('http://gnu.org/licenses/agpl-3.0.html', {
     id: '@id',
     logo: 'foaf:logo',

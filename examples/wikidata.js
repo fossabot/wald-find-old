@@ -10,6 +10,8 @@ require ('../lib/drivers/ldf') (find.drivers);
 
 var wf = find.connect('ldf:http://data.wikidataldf.com/wikidata');
 
+wf.namespaces.addPrefix('wikidata', 'http://www.wikidata.org/entity/');
+
 var result = wf.query('wikidata:Q192755', {
     id: '@id',
     name: 'rdfs:label',
