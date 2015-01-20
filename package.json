@@ -14,6 +14,7 @@
     "jsonld": "^0.3.19",
     "ldf-client": "LinkedDataFragments/Client.js#develop",
     "n3": "^0.4.0",
+    "request": "^2.51.0",
     "traverse": "^0.6.6",
     "uglify-js": "^2.4.16",
     "underscore": "^1.7.0",
