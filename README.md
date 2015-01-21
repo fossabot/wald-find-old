@@ -2,16 +2,16 @@
 wald:find
 =========
 
-wald:find is a prototype DSL for querying linked data.  It currently includes a driver to query
-Linked Data Fragments servers, though the core query language isn't tied to this (e.g. I imagine
-writing HDT or SPARQL drivers should be fairly easy).
+wald:find is a prototype DSL for querying linked data.  It currently includes a driver to
+query Linked Data Fragments servers, though the core query language isn't tied to this
+(e.g. I imagine writing HDT or SPARQL drivers should be fairly easy).
 
-The goal of this DSL is to give the query the same basic shape as the model you want as a result,
-this allows the query to look similar to how you're going to use the data and the results to be
-fed directly into template languages like mustache.
+The goal of this DSL is to give the query the same basic shape as the model you want as a
+result, this allows the query to look similar to how you're going to use the data and the
+results to be fed directly into template languages like mustache.
 
-NOTE: the work here should be considered a prototype or proof of concept.  There are no unittests
-and it is still under heavy development.
+NOTE: the work here should be considered a prototype or proof of concept.  I'm not using
+this in anything yet.
 
 example
 -------
@@ -19,20 +19,20 @@ example
 Here is a basic example which asks wikidata for some information about Britney Spears' Blackout
 album:
 
-    var wq = query.connect('ldf:http://data.wikidataldf.com/wikidata');
+    var wf = find.connect('ldf:http://data.wikidataldf.com/wikidata');
 
-    var result = wq.query('wikidata:Q192755', {
+    var result = wf.query('wikidata:Q192755', {
         id: '@id',
         name: 'rdfs:label',
-        performer: wq.subquery ('wikidata:P175s', {
-            artist: wq.subquery ('wikidata:P175v', {
+        performer: wf.subquery ('wikidata:P175s', {
+            artist: wf.subquery ('wikidata:P175v', {
                 id: '@id',
                 name: 'rdfs:label',
             })
         })
-    }).then (core.normalizeModel);
+    }).then (find.normalizeModel);
 
-`wq.query()` will return a promise which will resolve to:
+`wf.query()` will return a promise which will resolve to:
 
     {
         "id": "http://www.wikidata.org/entity/Q192755",
