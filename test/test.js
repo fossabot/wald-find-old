@@ -18,12 +18,15 @@ var leche = require('leche');
 
 require ('../lib/drivers/ldf') (find.drivers);
 require ('../lib/drivers/ldfb') (find.drivers);
+require ('../lib/drivers/file') (find.drivers);
 
 var licensedb = 'http://localhost:4014/licensedb';
 
 var clients = {
     'ldf-client': find.connect ('ldf:' + licensedb),
-    'ldf-b': find.connect ('ldfb:' + licensedb)
+    'ldf-b': find.connect ('ldfb:' + licensedb),
+    'file-ttl': find.connect ('file:file://data/licensedb.2014-01-19.ttl'),
+    'file-jsonld': find.connect ('file:file://data/licensedb.2014-01-19.jsonld')
 };
 
 Object.keys(clients).forEach (function (key) {
@@ -32,7 +35,9 @@ Object.keys(clients).forEach (function (key) {
 
 suite ('Query', function () {
     leche.withData (clients, function (wf) {
-        test ('simple terms', function () {
+        var prefix = this.title.replace ('with ', '') + ': ';
+
+        test (prefix + 'simple terms', function () {
             var result = wf.query ('http://gnu.org/licenses/gpl-3.0.html', {
                 id: '@id',
                 sameAs: [ 'owl:sameAs' ],
@@ -46,7 +51,7 @@ suite ('Query', function () {
             });
         });
 
-        test ('subquery in array', function () {
+        test (prefix + 'subquery in array', function () {
             var result = wf.query ('http://gnu.org/licenses/agpl-3.0.html', {
                 id: '@id',
                 name: 'dcterms:title',
@@ -64,7 +69,7 @@ suite ('Query', function () {
             });
         });
 
-        test ('normalize', function () {
+        test (prefix + 'normalize', function () {
             var result = wf.query ('http://gnu.org/licenses/agpl-3.0.html', {
                 id: '@id',
                 name: 'dcterms:identifier',
@@ -80,7 +85,7 @@ suite ('Query', function () {
             });
         });
 
-        test ('language filter', function () {
+        test (prefix + 'language filter', function () {
             var result = wf.query ('http://creativecommons.org/licenses/by-sa/3.0/', {
                 id: '@id',
                 titles: [ 'dcterms:title' ],
@@ -95,7 +100,7 @@ suite ('Query', function () {
             });
         });
 
-        test ('owl:sameAs', function () {
+        test (prefix + 'owl:sameAs', function () {
             var result = wf.query ('http://gnu.org/licenses/agpl-3.0.html', {
                 id: '@id',
                 name: 'dcterms:title',
@@ -123,7 +128,7 @@ suite ('Query', function () {
         });
 
 
-        test ('turtles', function () {
+        test (prefix + 'turtles', function () {
             var result = wf.query ('http://gnu.org/licenses/agpl-3.0.html', {
                 id: '@id',
                 replaces: [ wf.sameAs('dcterms:replaces', {
@@ -150,7 +155,7 @@ suite ('Query', function () {
             });
         });
 
-        test ('paging', function () {
+        test (prefix + 'paging', function () {
             var pattern = {
                 subject: 'http://creativecommons.org/licenses/by-sa/3.0/',
                 predicate: null,
@@ -166,12 +171,14 @@ suite ('Query', function () {
 
                 assert.equal (titles.length, 91);
 
-                assert.equal (N3.Util.getLiteralLanguage (titles[0].object), 'eu');
-                assert.equal (N3.Util.getLiteralValue (titles[0].object),
+                var sorted = _(titles).sortBy ('object');
+
+                assert.equal (N3.Util.getLiteralLanguage (sorted[0].object), 'eu');
+                assert.equal (N3.Util.getLiteralValue (sorted[0].object),
                     'Aitortu-PartekatuBerdin 3.0 Unported');
 
-                assert.equal (N3.Util.getLiteralLanguage (titles[90].object), 'ko');
-                assert.equal (N3.Util.getLiteralValue (titles[90].object),
+                assert.equal (N3.Util.getLiteralLanguage (sorted[90].object), 'ko');
+                assert.equal (N3.Util.getLiteralValue (sorted[90].object),
                     '저작자표시-동일조건변경허락 3.0 Unported');
             });
         });

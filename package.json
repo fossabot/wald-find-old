@@ -13,7 +13,7 @@
     "jsdom": "^2.0.0",
     "jsonld": "^0.3.19",
     "ldf-client": "LinkedDataFragments/Client.js#develop",
-    "n3": "^0.4.0",
+    "n3": "RubenVerborgh/N3.js",
     "request": "^2.51.0",
     "traverse": "^0.6.6",
     "uglify-js": "^2.4.16",
