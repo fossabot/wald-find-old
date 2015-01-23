@@ -11,7 +11,7 @@
     "hogan.js": "^3.0.2",
     "jquery": "^2.1.3",
     "jsdom": "^2.0.0",
-    "jsonld": "^0.3.19",
+    "jsonld": "digitalbazaar/jsonld.js",
     "ldf-client": "LinkedDataFragments/Client.js#develop",
     "n3": "RubenVerborgh/N3.js",
     "request": "^2.51.0",
