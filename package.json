@@ -23,16 +23,9 @@
   },
   "description": "wald:meta is vapourware.",
   "devDependencies": {
-    "eslint": "^0.11.0",
-    "ldf-server": "^1.1.3",
-    "leche": "^2.0.0",
-    "mocha": "^2.1.0"
+    "ldf-server": "^1.1.3"
   },
   "homepage": "http://waldmeta.org/",
-  "scripts": {
-    "test": "bin/test",
-    "postinstall": "bin/postinstall"
-  },
   "keywords": [
     "Linked Data"
   ],

@@ -14,6 +14,8 @@ var jsonld = require ('jsonld').promises;
 var ldf = require('ldf-client');
 var when = require ('when');
 
+require ('ldf-client/lib/util/Logger').setLevel ('DEBUG');
+
 var FilterIterator = require ('ldf-client/lib/iterators/FilterIterator');
 
 var matchesPattern = function (pattern, triple) {
@@ -81,6 +83,7 @@ var enabled = {
     ldf: true,
     file: true
 };
+
 
 if (enabled.ldf) {
     ldfQuery ('http://localhost:4014/licensedb', {
