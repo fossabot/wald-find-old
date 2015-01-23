@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/">
+  <rdf:Description rdf:about="https://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98">
+    <schema:name>United States</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98">
+    <rdf:type rdf:resource="http://schema.org/Country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/area/6fddb177-f3fc-4c30-9d49-9c7e949fe0bc">
+    <schema:containedIn rdf:resource="https://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/area/6fddb177-f3fc-4c30-9d49-9c7e949fe0bc">
+    <schema:name>Mississippi</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/area/6fddb177-f3fc-4c30-9d49-9c7e949fe0bc">
+    <rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/area/ff7eb755-8d72-447f-a5f2-d7a4350cafd5">
+    <schema:containedIn rdf:resource="https://musicbrainz.org/area/6fddb177-f3fc-4c30-9d49-9c7e949fe0bc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/area/ff7eb755-8d72-447f-a5f2-d7a4350cafd5">
+    <schema:name>McComb</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/area/ff7eb755-8d72-447f-a5f2-d7a4350cafd5">
+    <rdf:type rdf:resource="http://schema.org/City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/149f91ef-1287-46da-9a8e-87fee02f1471">
+    <schema:name>Pharrell Williams</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/007ba5c5-83c9-3377-a9de-1ed1414629b9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/08e908e4-c503-3941-b65d-82f5fc75cfde"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/0c255cd6-2391-4c1e-b1fe-bdfc87130580"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/11e41cf9-a682-4c97-afb2-5dc8e4dfe6a4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/1df6c8f7-331d-3219-9eca-1df97816a937"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/1e5f92e0-913c-3202-a72c-b068b9f34ce1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/1ec6f797-1b67-369d-b5dc-28b7cc003ea0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/20c4a0b6-50d5-48d4-aad2-33c93b38bd75"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/279a13f6-29b6-49f2-a4ec-f07d1a006d94"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/348bf7f4-0237-35e0-8f15-7b1328fa623a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/35f4c727-8b32-3457-a2e7-42a697dd39c2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/3875441e-608a-4280-aa6a-0798291c1ba1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/4adcd76e-0a18-31fa-9c66-34d55b21e770"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/4d018ba8-f05e-4817-8c70-34307161a0fc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/50428767-4afb-37c2-9d0c-e8c71cc8d6eb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/52dbc4ef-8546-3586-82e6-57e417da2a82"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/53aa0fd3-32f5-43ea-919f-0ddd0d1177b8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/60263d40-8a93-3564-bac4-4357e4e5008d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/664197fb-1e5c-4687-9bf4-a178bc2fd68e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/6b3d5e28-8367-3044-8e94-4ac730a0c66d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/6e7a1ca2-cd37-3683-936f-85b740dbbcc3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/6ffb9cdc-2336-45df-877a-541201421d07"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/70d97b9e-8eec-4ae1-a301-81e530fc389d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/7c265883-d9c2-3423-96c4-17e631eb8caa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/7cb2c3e4-cc60-41e2-91b3-bb6464775418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/7fa6269b-8502-3863-90a6-b491b885044b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/84c00d69-a2dc-30ca-b29f-1cf470ff77fb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/881c6548-d694-3f54-a01e-c74d1f837af7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/96adaad0-c7b0-4910-aad8-936aea34f95a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/991f7373-20e2-3834-bfc7-976c75d7645f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/9e3a109c-8ef0-34d0-a5e8-e520e9738ede"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/9ecc1aea-289d-4d03-b476-6bbcd1e749d7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/a1b16f9c-7b93-3351-9453-0f3545a5f989"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/a7e9d7d2-3c60-472f-b2ba-829de5034179"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/add6cf16-f4c1-3d50-9b28-633b35ca8189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/af3bb5ad-9d8b-32bd-bc81-a1e203e85028"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/b55a5d6e-d2d5-3ee1-bee2-4a6f7775bd69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/bf1bd494-8b29-4ca6-b791-48ba47e836c2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/c378d06f-d3d0-45a1-924a-46a39e72a2fd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/c58a37ec-3a2a-30f8-85cd-f584b192ae24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/cac5efa7-07e0-3278-90b7-93a8cd380732"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/ce7edd01-55b5-3a82-a1b1-9ff0a3d17932"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/cea67a92-db08-4950-bdc6-6d52fc622243"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/deba61bd-fecd-36b3-875e-9842e5aeabc2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/f13ce399-ce92-387e-bcc3-1b71ca265d9d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/f2708dcf-14e6-31f1-90e0-b3e933a0c8a3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/f73c158e-1c59-4bb0-b920-6d466c35cad8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/f850adcc-4f9f-365c-bc44-fdc0d5eaa565"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:album rdf:resource="https://musicbrainz.org/release-group/faeb8741-2ca0-3ca6-8a1a-70bab1e67c82"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:birthDate rdf:datatype="http://schema.org/Date">1981-12-02</schema:birthDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:birthPlace rdf:resource="https://musicbrainz.org/area/ff7eb755-8d72-447f-a5f2-d7a4350cafd5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:foundingDate rdf:datatype="http://schema.org/Date">1981-12-02</schema:foundingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:groupOrigin rdf:resource="https://musicbrainz.org/area/ff7eb755-8d72-447f-a5f2-d7a4350cafd5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:location rdf:resource="https://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:name>Britney Spears</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://britneyspears.tumblr.com/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://en.wikipedia.org/wiki/Britney_Spears"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://instagram.com/britneyspears"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://isni-url.oclc.nl/isni/0000000109898265"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://musicmoz.org/Bands_and_Artists/S/Spears,_Britney/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://viaf.org/viaf/76495483"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://www.allmusic.com/artist/mn0000628467"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://www.bbc.co.uk/music/artists/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://www.britney.com/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://www.britney.com/de"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://www.britneyspears.com/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://www.discogs.com/artist/15687"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://www.imdb.com/name/nm0005453/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://www.last.fm/music/Britney+Spears"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://www.secondhandsongs.com/artist/66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="http://www.wikidata.org/wiki/Q11975"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="https://musicbrainz.org/artist/2f4f5d16-7102-4110-97fd-f5c365d6bb26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="https://plus.google.com/+britneyspears"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="https://rateyourmusic.com/artist/britney_spears"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="https://twitter.com/britneyspears"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <schema:sameAs rdf:resource="https://www.facebook.com/britneyspears"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <rdf:type rdf:resource="http://schema.org/MusicGroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/79239441-bfd5-4981-a70c-55c3f15c1287">
+    <schema:name>Madonna</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/artist/d574c9bd-46f6-440a-8d6a-8412a283eeb1">
+    <schema:name>will.i.am</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/007ba5c5-83c9-3377-a9de-1ed1414629b9">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/007ba5c5-83c9-3377-a9de-1ed1414629b9">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/007ba5c5-83c9-3377-a9de-1ed1414629b9">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/007ba5c5-83c9-3377-a9de-1ed1414629b9">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/007ba5c5-83c9-3377-a9de-1ed1414629b9">
+    <schema:name>Womanizer</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/007ba5c5-83c9-3377-a9de-1ed1414629b9">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/08e908e4-c503-3941-b65d-82f5fc75cfde">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/08e908e4-c503-3941-b65d-82f5fc75cfde">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/08e908e4-c503-3941-b65d-82f5fc75cfde">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/08e908e4-c503-3941-b65d-82f5fc75cfde">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/08e908e4-c503-3941-b65d-82f5fc75cfde">
+    <schema:name>Piece of Me</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/08e908e4-c503-3941-b65d-82f5fc75cfde">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:albumRelease rdf:resource="https://musicbrainz.org/release/0055dbfb-9bf5-45d3-9c11-069128ee9212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:albumRelease rdf:resource="https://musicbrainz.org/release/1612c9c7-fcac-4ba3-957b-832015a0d2d8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:albumRelease rdf:resource="https://musicbrainz.org/release/389900fa-b01d-3b66-87fd-76ac2917981a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:albumRelease rdf:resource="https://musicbrainz.org/release/39b6426d-0377-4b44-965e-707a4e495645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:albumRelease rdf:resource="https://musicbrainz.org/release/7ccc2cfb-d8f0-4f38-afd8-f4961e85de52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:albumRelease rdf:resource="https://musicbrainz.org/release/a846c16e-4307-4cc1-a1a4-47ee16a2f9d8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:albumRelease rdf:resource="https://musicbrainz.org/release/d285abd9-1c68-38f8-a6c4-1b0147292c80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:image rdf:nodeID="b0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:name>Blackout</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:sameAs rdf:resource="http://en.wikipedia.org/wiki/Blackout_(Britney_Spears_album)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:sameAs rdf:resource="http://www.allmusic.com/album/mw0000487827"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:sameAs rdf:resource="http://www.discogs.com/master/30118"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <schema:sameAs rdf:resource="http://www.wikidata.org/wiki/Q192755"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0c255cd6-2391-4c1e-b1fe-bdfc87130580">
+    <schema:albumProductionType>http://schema.org/LiveAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0c255cd6-2391-4c1e-b1fe-bdfc87130580">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0c255cd6-2391-4c1e-b1fe-bdfc87130580">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0c255cd6-2391-4c1e-b1fe-bdfc87130580">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0c255cd6-2391-4c1e-b1fe-bdfc87130580">
+    <schema:name>Live From Las Vegas</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/0c255cd6-2391-4c1e-b1fe-bdfc87130580">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/11e41cf9-a682-4c97-afb2-5dc8e4dfe6a4">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/11e41cf9-a682-4c97-afb2-5dc8e4dfe6a4">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/11e41cf9-a682-4c97-afb2-5dc8e4dfe6a4">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/11e41cf9-a682-4c97-afb2-5dc8e4dfe6a4">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/11e41cf9-a682-4c97-afb2-5dc8e4dfe6a4">
+    <schema:name>Hold It Against Me</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/11e41cf9-a682-4c97-afb2-5dc8e4dfe6a4">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1df6c8f7-331d-3219-9eca-1df97816a937">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1df6c8f7-331d-3219-9eca-1df97816a937">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1df6c8f7-331d-3219-9eca-1df97816a937">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1df6c8f7-331d-3219-9eca-1df97816a937">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1df6c8f7-331d-3219-9eca-1df97816a937">
+    <schema:name>...Baby One More Time</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1df6c8f7-331d-3219-9eca-1df97816a937">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1e5f92e0-913c-3202-a72c-b068b9f34ce1">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1e5f92e0-913c-3202-a72c-b068b9f34ce1">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1e5f92e0-913c-3202-a72c-b068b9f34ce1">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1e5f92e0-913c-3202-a72c-b068b9f34ce1">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1e5f92e0-913c-3202-a72c-b068b9f34ce1">
+    <schema:name>Circus</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1e5f92e0-913c-3202-a72c-b068b9f34ce1">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1ec6f797-1b67-369d-b5dc-28b7cc003ea0">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1ec6f797-1b67-369d-b5dc-28b7cc003ea0">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1ec6f797-1b67-369d-b5dc-28b7cc003ea0">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1ec6f797-1b67-369d-b5dc-28b7cc003ea0">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/79239441-bfd5-4981-a70c-55c3f15c1287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1ec6f797-1b67-369d-b5dc-28b7cc003ea0">
+    <schema:creditedTo>Britney Spears feat. Madonna</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1ec6f797-1b67-369d-b5dc-28b7cc003ea0">
+    <schema:name>Me Against the Music</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/1ec6f797-1b67-369d-b5dc-28b7cc003ea0">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/20c4a0b6-50d5-48d4-aad2-33c93b38bd75">
+    <schema:albumProductionType>http://schema.org/CompilationAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/20c4a0b6-50d5-48d4-aad2-33c93b38bd75">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/20c4a0b6-50d5-48d4-aad2-33c93b38bd75">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/20c4a0b6-50d5-48d4-aad2-33c93b38bd75">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/20c4a0b6-50d5-48d4-aad2-33c93b38bd75">
+    <schema:name>The Singles Collection</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/20c4a0b6-50d5-48d4-aad2-33c93b38bd75">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/279a13f6-29b6-49f2-a4ec-f07d1a006d94">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/279a13f6-29b6-49f2-a4ec-f07d1a006d94">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/279a13f6-29b6-49f2-a4ec-f07d1a006d94">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/279a13f6-29b6-49f2-a4ec-f07d1a006d94">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/279a13f6-29b6-49f2-a4ec-f07d1a006d94">
+    <schema:name>If U Seek Amy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/279a13f6-29b6-49f2-a4ec-f07d1a006d94">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/348bf7f4-0237-35e0-8f15-7b1328fa623a">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/348bf7f4-0237-35e0-8f15-7b1328fa623a">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/348bf7f4-0237-35e0-8f15-7b1328fa623a">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/348bf7f4-0237-35e0-8f15-7b1328fa623a">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/348bf7f4-0237-35e0-8f15-7b1328fa623a">
+    <schema:name>Don't Let Me Be the Last to Know</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/348bf7f4-0237-35e0-8f15-7b1328fa623a">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/35f4c727-8b32-3457-a2e7-42a697dd39c2">
+    <schema:albumProductionType>http://schema.org/CompilationAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/35f4c727-8b32-3457-a2e7-42a697dd39c2">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/35f4c727-8b32-3457-a2e7-42a697dd39c2">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/35f4c727-8b32-3457-a2e7-42a697dd39c2">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/35f4c727-8b32-3457-a2e7-42a697dd39c2">
+    <schema:name>Greatest Hits: My Prerogative</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/35f4c727-8b32-3457-a2e7-42a697dd39c2">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/3875441e-608a-4280-aa6a-0798291c1ba1">
+    <schema:albumProductionType>http://schema.org/LiveAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/3875441e-608a-4280-aa6a-0798291c1ba1">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/3875441e-608a-4280-aa6a-0798291c1ba1">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/3875441e-608a-4280-aa6a-0798291c1ba1">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/3875441e-608a-4280-aa6a-0798291c1ba1">
+    <schema:name>Live: The Femme Fatale Tour</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/3875441e-608a-4280-aa6a-0798291c1ba1">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4adcd76e-0a18-31fa-9c66-34d55b21e770">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4adcd76e-0a18-31fa-9c66-34d55b21e770">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4adcd76e-0a18-31fa-9c66-34d55b21e770">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4adcd76e-0a18-31fa-9c66-34d55b21e770">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4adcd76e-0a18-31fa-9c66-34d55b21e770">
+    <schema:name>I'm Not a Girl, Not Yet a Woman</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4adcd76e-0a18-31fa-9c66-34d55b21e770">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4d018ba8-f05e-4817-8c70-34307161a0fc">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4d018ba8-f05e-4817-8c70-34307161a0fc">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4d018ba8-f05e-4817-8c70-34307161a0fc">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4d018ba8-f05e-4817-8c70-34307161a0fc">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4d018ba8-f05e-4817-8c70-34307161a0fc">
+    <schema:name>Stronger</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/4d018ba8-f05e-4817-8c70-34307161a0fc">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/50428767-4afb-37c2-9d0c-e8c71cc8d6eb">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/50428767-4afb-37c2-9d0c-e8c71cc8d6eb">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/50428767-4afb-37c2-9d0c-e8c71cc8d6eb">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/50428767-4afb-37c2-9d0c-e8c71cc8d6eb">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/50428767-4afb-37c2-9d0c-e8c71cc8d6eb">
+    <schema:name>(You Drive Me) Crazy (The Stop Remix!)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/50428767-4afb-37c2-9d0c-e8c71cc8d6eb">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/52dbc4ef-8546-3586-82e6-57e417da2a82">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/52dbc4ef-8546-3586-82e6-57e417da2a82">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/52dbc4ef-8546-3586-82e6-57e417da2a82">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/52dbc4ef-8546-3586-82e6-57e417da2a82">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/52dbc4ef-8546-3586-82e6-57e417da2a82">
+    <schema:name>Outrageous</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/52dbc4ef-8546-3586-82e6-57e417da2a82">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/53aa0fd3-32f5-43ea-919f-0ddd0d1177b8">
+    <schema:albumProductionType>http://schema.org/CompilationAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/53aa0fd3-32f5-43ea-919f-0ddd0d1177b8">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/53aa0fd3-32f5-43ea-919f-0ddd0d1177b8">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/53aa0fd3-32f5-43ea-919f-0ddd0d1177b8">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/53aa0fd3-32f5-43ea-919f-0ddd0d1177b8">
+    <schema:name>The Collection: Britney Spears</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/53aa0fd3-32f5-43ea-919f-0ddd0d1177b8">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/60263d40-8a93-3564-bac4-4357e4e5008d">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/60263d40-8a93-3564-bac4-4357e4e5008d">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/60263d40-8a93-3564-bac4-4357e4e5008d">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/60263d40-8a93-3564-bac4-4357e4e5008d">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/60263d40-8a93-3564-bac4-4357e4e5008d">
+    <schema:name>Do Somethin'</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/60263d40-8a93-3564-bac4-4357e4e5008d">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/664197fb-1e5c-4687-9bf4-a178bc2fd68e">
+    <schema:albumProductionType>http://schema.org/RemixAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/664197fb-1e5c-4687-9bf4-a178bc2fd68e">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/664197fb-1e5c-4687-9bf4-a178bc2fd68e">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/664197fb-1e5c-4687-9bf4-a178bc2fd68e">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/664197fb-1e5c-4687-9bf4-a178bc2fd68e">
+    <schema:name>B in the Mix: The Remixes, Volume 2</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/664197fb-1e5c-4687-9bf4-a178bc2fd68e">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6b3d5e28-8367-3044-8e94-4ac730a0c66d">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6b3d5e28-8367-3044-8e94-4ac730a0c66d">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6b3d5e28-8367-3044-8e94-4ac730a0c66d">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6b3d5e28-8367-3044-8e94-4ac730a0c66d">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6b3d5e28-8367-3044-8e94-4ac730a0c66d">
+    <schema:name>Oops!...I Did It Again</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6b3d5e28-8367-3044-8e94-4ac730a0c66d">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6e7a1ca2-cd37-3683-936f-85b740dbbcc3">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6e7a1ca2-cd37-3683-936f-85b740dbbcc3">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6e7a1ca2-cd37-3683-936f-85b740dbbcc3">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6e7a1ca2-cd37-3683-936f-85b740dbbcc3">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6e7a1ca2-cd37-3683-936f-85b740dbbcc3">
+    <schema:name>Lucky</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6e7a1ca2-cd37-3683-936f-85b740dbbcc3">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6ffb9cdc-2336-45df-877a-541201421d07">
+    <schema:albumProductionType>http://schema.org/CompilationAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6ffb9cdc-2336-45df-877a-541201421d07">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6ffb9cdc-2336-45df-877a-541201421d07">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6ffb9cdc-2336-45df-877a-541201421d07">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6ffb9cdc-2336-45df-877a-541201421d07">
+    <schema:name>Oops! I Did It Again: The Best Of Britney Spears</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/6ffb9cdc-2336-45df-877a-541201421d07">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/70d97b9e-8eec-4ae1-a301-81e530fc389d">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/70d97b9e-8eec-4ae1-a301-81e530fc389d">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/70d97b9e-8eec-4ae1-a301-81e530fc389d">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/70d97b9e-8eec-4ae1-a301-81e530fc389d">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/70d97b9e-8eec-4ae1-a301-81e530fc389d">
+    <schema:name>3</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/70d97b9e-8eec-4ae1-a301-81e530fc389d">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7c265883-d9c2-3423-96c4-17e631eb8caa">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7c265883-d9c2-3423-96c4-17e631eb8caa">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7c265883-d9c2-3423-96c4-17e631eb8caa">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7c265883-d9c2-3423-96c4-17e631eb8caa">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7c265883-d9c2-3423-96c4-17e631eb8caa">
+    <schema:name>My Prerogative</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7c265883-d9c2-3423-96c4-17e631eb8caa">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7cb2c3e4-cc60-41e2-91b3-bb6464775418">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7cb2c3e4-cc60-41e2-91b3-bb6464775418">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7cb2c3e4-cc60-41e2-91b3-bb6464775418">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7cb2c3e4-cc60-41e2-91b3-bb6464775418">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7cb2c3e4-cc60-41e2-91b3-bb6464775418">
+    <schema:name>Work Bitch</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7cb2c3e4-cc60-41e2-91b3-bb6464775418">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7fa6269b-8502-3863-90a6-b491b885044b">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7fa6269b-8502-3863-90a6-b491b885044b">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7fa6269b-8502-3863-90a6-b491b885044b">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7fa6269b-8502-3863-90a6-b491b885044b">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7fa6269b-8502-3863-90a6-b491b885044b">
+    <schema:name>Overprotected</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/7fa6269b-8502-3863-90a6-b491b885044b">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/84c00d69-a2dc-30ca-b29f-1cf470ff77fb">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/84c00d69-a2dc-30ca-b29f-1cf470ff77fb">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/84c00d69-a2dc-30ca-b29f-1cf470ff77fb">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/84c00d69-a2dc-30ca-b29f-1cf470ff77fb">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/84c00d69-a2dc-30ca-b29f-1cf470ff77fb">
+    <schema:name>I Love Rock 'n' Roll</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/84c00d69-a2dc-30ca-b29f-1cf470ff77fb">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/881c6548-d694-3f54-a01e-c74d1f837af7">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/881c6548-d694-3f54-a01e-c74d1f837af7">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/881c6548-d694-3f54-a01e-c74d1f837af7">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/881c6548-d694-3f54-a01e-c74d1f837af7">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/881c6548-d694-3f54-a01e-c74d1f837af7">
+    <schema:name>Toxic</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/881c6548-d694-3f54-a01e-c74d1f837af7">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/96adaad0-c7b0-4910-aad8-936aea34f95a">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/96adaad0-c7b0-4910-aad8-936aea34f95a">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/96adaad0-c7b0-4910-aad8-936aea34f95a">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/96adaad0-c7b0-4910-aad8-936aea34f95a">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/96adaad0-c7b0-4910-aad8-936aea34f95a">
+    <schema:name>Till the World Ends</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/96adaad0-c7b0-4910-aad8-936aea34f95a">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/991f7373-20e2-3834-bfc7-976c75d7645f">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/991f7373-20e2-3834-bfc7-976c75d7645f">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/991f7373-20e2-3834-bfc7-976c75d7645f">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/991f7373-20e2-3834-bfc7-976c75d7645f">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/991f7373-20e2-3834-bfc7-976c75d7645f">
+    <schema:name>I’m a Slave 4 U</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/991f7373-20e2-3834-bfc7-976c75d7645f">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9e3a109c-8ef0-34d0-a5e8-e520e9738ede">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9e3a109c-8ef0-34d0-a5e8-e520e9738ede">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9e3a109c-8ef0-34d0-a5e8-e520e9738ede">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9e3a109c-8ef0-34d0-a5e8-e520e9738ede">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9e3a109c-8ef0-34d0-a5e8-e520e9738ede">
+    <schema:name>Everytime</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9e3a109c-8ef0-34d0-a5e8-e520e9738ede">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9ecc1aea-289d-4d03-b476-6bbcd1e749d7">
+    <schema:albumProductionType>http://schema.org/CompilationAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9ecc1aea-289d-4d03-b476-6bbcd1e749d7">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9ecc1aea-289d-4d03-b476-6bbcd1e749d7">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9ecc1aea-289d-4d03-b476-6bbcd1e749d7">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9ecc1aea-289d-4d03-b476-6bbcd1e749d7">
+    <schema:name>The Essential Britney Spears</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/9ecc1aea-289d-4d03-b476-6bbcd1e749d7">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a1b16f9c-7b93-3351-9453-0f3545a5f989">
+    <schema:albumProductionType>http://schema.org/RemixAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a1b16f9c-7b93-3351-9453-0f3545a5f989">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a1b16f9c-7b93-3351-9453-0f3545a5f989">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a1b16f9c-7b93-3351-9453-0f3545a5f989">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a1b16f9c-7b93-3351-9453-0f3545a5f989">
+    <schema:name>B in the Mix: The Remixes</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a1b16f9c-7b93-3351-9453-0f3545a5f989">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a7e9d7d2-3c60-472f-b2ba-829de5034179">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a7e9d7d2-3c60-472f-b2ba-829de5034179">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a7e9d7d2-3c60-472f-b2ba-829de5034179">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a7e9d7d2-3c60-472f-b2ba-829de5034179">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a7e9d7d2-3c60-472f-b2ba-829de5034179">
+    <schema:name>Femme Fatale</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/a7e9d7d2-3c60-472f-b2ba-829de5034179">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/add6cf16-f4c1-3d50-9b28-633b35ca8189">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/add6cf16-f4c1-3d50-9b28-633b35ca8189">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/add6cf16-f4c1-3d50-9b28-633b35ca8189">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/add6cf16-f4c1-3d50-9b28-633b35ca8189">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/add6cf16-f4c1-3d50-9b28-633b35ca8189">
+    <schema:name>In the Zone</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/add6cf16-f4c1-3d50-9b28-633b35ca8189">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/af3bb5ad-9d8b-32bd-bc81-a1e203e85028">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/af3bb5ad-9d8b-32bd-bc81-a1e203e85028">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/af3bb5ad-9d8b-32bd-bc81-a1e203e85028">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/149f91ef-1287-46da-9a8e-87fee02f1471"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/af3bb5ad-9d8b-32bd-bc81-a1e203e85028">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/af3bb5ad-9d8b-32bd-bc81-a1e203e85028">
+    <schema:creditedTo>Britney Spears feat. Pharrell Williams</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/af3bb5ad-9d8b-32bd-bc81-a1e203e85028">
+    <schema:name>Boys</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/af3bb5ad-9d8b-32bd-bc81-a1e203e85028">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/b55a5d6e-d2d5-3ee1-bee2-4a6f7775bd69">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/b55a5d6e-d2d5-3ee1-bee2-4a6f7775bd69">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/b55a5d6e-d2d5-3ee1-bee2-4a6f7775bd69">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/b55a5d6e-d2d5-3ee1-bee2-4a6f7775bd69">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/b55a5d6e-d2d5-3ee1-bee2-4a6f7775bd69">
+    <schema:name>Sometimes</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/b55a5d6e-d2d5-3ee1-bee2-4a6f7775bd69">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/bf1bd494-8b29-4ca6-b791-48ba47e836c2">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/bf1bd494-8b29-4ca6-b791-48ba47e836c2">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/bf1bd494-8b29-4ca6-b791-48ba47e836c2">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/bf1bd494-8b29-4ca6-b791-48ba47e836c2">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/d574c9bd-46f6-440a-8d6a-8412a283eeb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/bf1bd494-8b29-4ca6-b791-48ba47e836c2">
+    <schema:creditedTo>will.i.am &amp; Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/bf1bd494-8b29-4ca6-b791-48ba47e836c2">
+    <schema:name>Scream &amp; Shout</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/bf1bd494-8b29-4ca6-b791-48ba47e836c2">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c378d06f-d3d0-45a1-924a-46a39e72a2fd">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c378d06f-d3d0-45a1-924a-46a39e72a2fd">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c378d06f-d3d0-45a1-924a-46a39e72a2fd">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c378d06f-d3d0-45a1-924a-46a39e72a2fd">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c378d06f-d3d0-45a1-924a-46a39e72a2fd">
+    <schema:name>Britney Jean</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c378d06f-d3d0-45a1-924a-46a39e72a2fd">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c58a37ec-3a2a-30f8-85cd-f584b192ae24">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c58a37ec-3a2a-30f8-85cd-f584b192ae24">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c58a37ec-3a2a-30f8-85cd-f584b192ae24">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c58a37ec-3a2a-30f8-85cd-f584b192ae24">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c58a37ec-3a2a-30f8-85cd-f584b192ae24">
+    <schema:name>Born to Make You Happy</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/c58a37ec-3a2a-30f8-85cd-f584b192ae24">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cac5efa7-07e0-3278-90b7-93a8cd380732">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cac5efa7-07e0-3278-90b7-93a8cd380732">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cac5efa7-07e0-3278-90b7-93a8cd380732">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cac5efa7-07e0-3278-90b7-93a8cd380732">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cac5efa7-07e0-3278-90b7-93a8cd380732">
+    <schema:name>Circus</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cac5efa7-07e0-3278-90b7-93a8cd380732">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/ce7edd01-55b5-3a82-a1b1-9ff0a3d17932">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/ce7edd01-55b5-3a82-a1b1-9ff0a3d17932">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/ce7edd01-55b5-3a82-a1b1-9ff0a3d17932">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/ce7edd01-55b5-3a82-a1b1-9ff0a3d17932">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/ce7edd01-55b5-3a82-a1b1-9ff0a3d17932">
+    <schema:name>Someday (I Will Understand)</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/ce7edd01-55b5-3a82-a1b1-9ff0a3d17932">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cea67a92-db08-4950-bdc6-6d52fc622243">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cea67a92-db08-4950-bdc6-6d52fc622243">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cea67a92-db08-4950-bdc6-6d52fc622243">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cea67a92-db08-4950-bdc6-6d52fc622243">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cea67a92-db08-4950-bdc6-6d52fc622243">
+    <schema:name>Criminal</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/cea67a92-db08-4950-bdc6-6d52fc622243">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/deba61bd-fecd-36b3-875e-9842e5aeabc2">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/deba61bd-fecd-36b3-875e-9842e5aeabc2">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/deba61bd-fecd-36b3-875e-9842e5aeabc2">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/deba61bd-fecd-36b3-875e-9842e5aeabc2">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/deba61bd-fecd-36b3-875e-9842e5aeabc2">
+    <schema:name>Gimme More</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/deba61bd-fecd-36b3-875e-9842e5aeabc2">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f13ce399-ce92-387e-bcc3-1b71ca265d9d">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f13ce399-ce92-387e-bcc3-1b71ca265d9d">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f13ce399-ce92-387e-bcc3-1b71ca265d9d">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f13ce399-ce92-387e-bcc3-1b71ca265d9d">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f13ce399-ce92-387e-bcc3-1b71ca265d9d">
+    <schema:name>From the Bottom of My Broken Heart</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f13ce399-ce92-387e-bcc3-1b71ca265d9d">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f2708dcf-14e6-31f1-90e0-b3e933a0c8a3">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f2708dcf-14e6-31f1-90e0-b3e933a0c8a3">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f2708dcf-14e6-31f1-90e0-b3e933a0c8a3">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f2708dcf-14e6-31f1-90e0-b3e933a0c8a3">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f2708dcf-14e6-31f1-90e0-b3e933a0c8a3">
+    <schema:name>Oops!...I Did It Again</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f2708dcf-14e6-31f1-90e0-b3e933a0c8a3">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f73c158e-1c59-4bb0-b920-6d466c35cad8">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f73c158e-1c59-4bb0-b920-6d466c35cad8">
+    <schema:albumReleaseType>http://schema.org/SingleRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f73c158e-1c59-4bb0-b920-6d466c35cad8">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f73c158e-1c59-4bb0-b920-6d466c35cad8">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f73c158e-1c59-4bb0-b920-6d466c35cad8">
+    <schema:name>I Wanna Go</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f73c158e-1c59-4bb0-b920-6d466c35cad8">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f850adcc-4f9f-365c-bc44-fdc0d5eaa565">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f850adcc-4f9f-365c-bc44-fdc0d5eaa565">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f850adcc-4f9f-365c-bc44-fdc0d5eaa565">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f850adcc-4f9f-365c-bc44-fdc0d5eaa565">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f850adcc-4f9f-365c-bc44-fdc0d5eaa565">
+    <schema:name>Britney</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/f850adcc-4f9f-365c-bc44-fdc0d5eaa565">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/faeb8741-2ca0-3ca6-8a1a-70bab1e67c82">
+    <schema:albumProductionType>http://schema.org/StudioAlbum</schema:albumProductionType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/faeb8741-2ca0-3ca6-8a1a-70bab1e67c82">
+    <schema:albumReleaseType>http://schema.org/AlbumRelease</schema:albumReleaseType>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/faeb8741-2ca0-3ca6-8a1a-70bab1e67c82">
+    <schema:byArtist rdf:resource="https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/faeb8741-2ca0-3ca6-8a1a-70bab1e67c82">
+    <schema:creditedTo>Britney Spears</schema:creditedTo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/faeb8741-2ca0-3ca6-8a1a-70bab1e67c82">
+    <schema:name>...Baby One More Time</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release-group/faeb8741-2ca0-3ca6-8a1a-70bab1e67c82">
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/0055dbfb-9bf5-45d3-9c11-069128ee9212">
+    <schema:name>Blackout</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/0055dbfb-9bf5-45d3-9c11-069128ee9212">
+    <rdf:type rdf:resource="http://schema.org/MusicRelease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/1612c9c7-fcac-4ba3-957b-832015a0d2d8">
+    <schema:name>ブラックアウト</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/1612c9c7-fcac-4ba3-957b-832015a0d2d8">
+    <rdf:type rdf:resource="http://schema.org/MusicRelease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/389900fa-b01d-3b66-87fd-76ac2917981a">
+    <schema:name>Blackout</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/389900fa-b01d-3b66-87fd-76ac2917981a">
+    <rdf:type rdf:resource="http://schema.org/MusicRelease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/39b6426d-0377-4b44-965e-707a4e495645">
+    <schema:name>Blackout</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/39b6426d-0377-4b44-965e-707a4e495645">
+    <rdf:type rdf:resource="http://schema.org/MusicRelease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/7ccc2cfb-d8f0-4f38-afd8-f4961e85de52">
+    <schema:name>Blackout</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/7ccc2cfb-d8f0-4f38-afd8-f4961e85de52">
+    <rdf:type rdf:resource="http://schema.org/MusicRelease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/a846c16e-4307-4cc1-a1a4-47ee16a2f9d8">
+    <schema:name>Blackout</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/a846c16e-4307-4cc1-a1a4-47ee16a2f9d8">
+    <rdf:type rdf:resource="http://schema.org/MusicRelease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/d285abd9-1c68-38f8-a6c4-1b0147292c80">
+    <schema:name>Blackout</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://musicbrainz.org/release/d285abd9-1c68-38f8-a6c4-1b0147292c80">
+    <rdf:type rdf:resource="http://schema.org/MusicRelease"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b0">
+    <schema:encodingFormat>jpg</schema:encodingFormat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b0">
+    <schema:representativeOfPage>True</schema:representativeOfPage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b0">
+    <schema:thumbnail rdf:nodeID="b1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b0">
+    <schema:thumbnail rdf:nodeID="b2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b0">
+    <rdf:type rdf:resource="http://schema.org/ImageObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b1">
+    <schema:encodingFormat>jpg</schema:encodingFormat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b1">
+    <rdf:type rdf:resource="http://schema.org/ImageObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b2">
+    <schema:encodingFormat>jpg</schema:encodingFormat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="b2">
+    <rdf:type rdf:resource="http://schema.org/ImageObject"/>
+  </rdf:Description>
+</rdf:RDF>
