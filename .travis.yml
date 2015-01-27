@@ -1,8 +1,9 @@
-
 sudo: false
 language:
   - node_js
-node_js: "0.10"
+node_js:
+  - "0.10"
+  - iojs-1.0
 before_script: bin/.travis-ldf
 script: bin/test
 cache:
@@ -10,6 +11,5 @@ cache:
   - node_modules
 
 notifications:
-  irc: "chat.freenode.net##senet"
+  irc: chat.freenode.net##senet
   email: false
-
