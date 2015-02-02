@@ -1,0 +1,1034 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "@vocab": "http://schema.org/",
+    "acceptsReservations": {
+      "@type": "@id"
+    },
+    "additionalType": {
+      "@type": "@id"
+    },
+    "applicationCategory": {
+      "@type": "@id"
+    },
+    "applicationSubCategory": {
+      "@type": "@id"
+    },
+    "arrivalTime": {
+      "@type": "DateTime"
+    },
+    "availabilityEnds": {
+      "@type": "DateTime"
+    },
+    "availabilityStarts": {
+      "@type": "DateTime"
+    },
+    "availableFrom": {
+      "@type": "DateTime"
+    },
+    "availableThrough": {
+      "@type": "DateTime"
+    },
+    "birthDate": {
+      "@type": "Date"
+    },
+    "bookingTime": {
+      "@type": "DateTime"
+    },
+    "checkinTime": {
+      "@type": "DateTime"
+    },
+    "checkoutTime": {
+      "@type": "DateTime"
+    },
+    "codeRepository": {
+      "@type": "@id"
+    },
+    "commentTime": {
+      "@type": "Date"
+    },
+    "contentUrl": {
+      "@type": "@id"
+    },
+    "dateCreated": {
+      "@type": "Date"
+    },
+    "dateIssued": {
+      "@type": "DateTime"
+    },
+    "dateModified": {
+      "@type": "Date"
+    },
+    "datePosted": {
+      "@type": "Date"
+    },
+    "datePublished": {
+      "@type": "Date"
+    },
+    "deathDate": {
+      "@type": "Date"
+    },
+    "departureTime": {
+      "@type": "DateTime"
+    },
+    "discussionUrl": {
+      "@type": "@id"
+    },
+    "dissolutionDate": {
+      "@type": "Date"
+    },
+    "doorTime": {
+      "@type": "DateTime"
+    },
+    "downloadUrl": {
+      "@type": "@id"
+    },
+    "dropoffTime": {
+      "@type": "DateTime"
+    },
+    "embedUrl": {
+      "@type": "@id"
+    },
+    "endDate": {
+      "@type": "Date"
+    },
+    "endTime": {
+      "@type": "DateTime"
+    },
+    "expectedArrivalFrom": {
+      "@type": "DateTime"
+    },
+    "expectedArrivalUntil": {
+      "@type": "DateTime"
+    },
+    "expires": {
+      "@type": "Date"
+    },
+    "featureList": {
+      "@type": "@id"
+    },
+    "foundingDate": {
+      "@type": "Date"
+    },
+    "gameLocation": {
+      "@type": "@id"
+    },
+    "gamePlatform": {
+      "@type": "@id"
+    },
+    "guidelineDate": {
+      "@type": "Date"
+    },
+    "hasMap": {
+      "@type": "@id"
+    },
+    "image": {
+      "@type": "@id"
+    },
+    "installUrl": {
+      "@type": "@id"
+    },
+    "isBasedOnUrl": {
+      "@type": "@id"
+    },
+    "labelDetails": {
+      "@type": "@id"
+    },
+    "lastReviewed": {
+      "@type": "Date"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "logo": {
+      "@type": "@id"
+    },
+    "map": {
+      "@type": "@id"
+    },
+    "maps": {
+      "@type": "@id"
+    },
+    "memoryRequirements": {
+      "@type": "@id"
+    },
+    "menu": {
+      "@type": "@id"
+    },
+    "modifiedTime": {
+      "@type": "DateTime"
+    },
+    "namedPosition": {
+      "@type": "@id"
+    },
+    "orderDate": {
+      "@type": "DateTime"
+    },
+    "ownedFrom": {
+      "@type": "DateTime"
+    },
+    "ownedThrough": {
+      "@type": "DateTime"
+    },
+    "paymentDue": {
+      "@type": "DateTime"
+    },
+    "paymentUrl": {
+      "@type": "@id"
+    },
+    "pickupTime": {
+      "@type": "DateTime"
+    },
+    "prescribingInfo": {
+      "@type": "@id"
+    },
+    "previousStartDate": {
+      "@type": "Date"
+    },
+    "priceValidUntil": {
+      "@type": "Date"
+    },
+    "publishingPrinciples": {
+      "@type": "@id"
+    },
+    "relatedLink": {
+      "@type": "@id"
+    },
+    "releaseDate": {
+      "@type": "Date"
+    },
+    "releaseNotes": {
+      "@type": "@id"
+    },
+    "replyToUrl": {
+      "@type": "@id"
+    },
+    "requirements": {
+      "@type": "@id"
+    },
+    "roleName": {
+      "@type": "@id"
+    },
+    "sameAs": {
+      "@type": "@id"
+    },
+    "scheduledTime": {
+      "@type": "DateTime"
+    },
+    "screenshot": {
+      "@type": "@id"
+    },
+    "serviceUrl": {
+      "@type": "@id"
+    },
+    "significantLink": {
+      "@type": "@id"
+    },
+    "significantLinks": {
+      "@type": "@id"
+    },
+    "sport": {
+      "@type": "@id"
+    },
+    "startDate": {
+      "@type": "Date"
+    },
+    "startTime": {
+      "@type": "DateTime"
+    },
+    "storageRequirements": {
+      "@type": "@id"
+    },
+    "targetUrl": {
+      "@type": "@id"
+    },
+    "temporal": {
+      "@type": "DateTime"
+    },
+    "thumbnailUrl": {
+      "@type": "@id"
+    },
+    "ticketToken": {
+      "@type": "@id"
+    },
+    "trackingUrl": {
+      "@type": "@id"
+    },
+    "uploadDate": {
+      "@type": "Date"
+    },
+    "url": {
+      "@type": "@id"
+    },
+    "validFrom": {
+      "@type": "DateTime"
+    },
+    "validThrough": {
+      "@type": "DateTime"
+    },
+    "validUntil": {
+      "@type": "Date"
+    },
+    "warning": {
+      "@type": "@id"
+    },
+    "webCheckinTime": {
+      "@type": "DateTime"
+    }
+  },
+  "@id": "https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8",
+  "@type": "MusicAlbum",
+  "byArtist": {
+    "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76",
+    "@type": [
+      "Person",
+      "MusicGroup"
+    ],
+    "location": {
+      "name": "United States",
+      "@id": "https://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98",
+      "@type": "Country"
+    },
+    "groupOrigin": {
+      "containedIn": {
+        "containedIn": {
+          "name": "United States",
+          "@id": "https://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98",
+          "@type": "Country"
+        },
+        "name": "Mississippi",
+        "@id": "https://musicbrainz.org/area/6fddb177-f3fc-4c30-9d49-9c7e949fe0bc",
+        "@type": "AdministrativeArea"
+      },
+      "name": "McComb",
+      "@id": "https://musicbrainz.org/area/ff7eb755-8d72-447f-a5f2-d7a4350cafd5",
+      "@type": "City"
+    },
+    "name": "Britney Spears",
+    "sameAs": [
+      "http://britneyspears.tumblr.com/",
+      "http://en.wikipedia.org/wiki/Britney_Spears",
+      "http://instagram.com/britneyspears",
+      "http://musicmoz.org/Bands_and_Artists/S/Spears,_Britney/",
+      "https://plus.google.com/+britneyspears",
+      "https://rateyourmusic.com/artist/britney_spears",
+      "https://twitter.com/britneyspears",
+      "https://www.facebook.com/britneyspears",
+      "http://viaf.org/viaf/76495483",
+      "http://www.allmusic.com/artist/mn0000628467",
+      "http://www.bbc.co.uk/music/artists/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76",
+      "http://www.britney.com/",
+      "http://www.britney.com/de",
+      "http://www.britneyspears.com/",
+      "http://www.discogs.com/artist/15687",
+      "http://www.imdb.com/name/nm0005453/",
+      "http://www.last.fm/music/Britney+Spears",
+      "http://www.secondhandsongs.com/artist/66",
+      "http://www.wikidata.org/wiki/Q11975",
+      "http://isni-url.oclc.nl/isni/0000000109898265",
+      "https://musicbrainz.org/artist/2f4f5d16-7102-4110-97fd-f5c365d6bb26"
+    ],
+    "birthDate": "1981-12-02",
+    "album": [
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "...Baby One More Time",
+        "@id": "https://musicbrainz.org/release-group/faeb8741-2ca0-3ca6-8a1a-70bab1e67c82",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Oops!...I Did It Again",
+        "@id": "https://musicbrainz.org/release-group/f2708dcf-14e6-31f1-90e0-b3e933a0c8a3",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Britney",
+        "@id": "https://musicbrainz.org/release-group/f850adcc-4f9f-365c-bc44-fdc0d5eaa565",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "In the Zone",
+        "@id": "https://musicbrainz.org/release-group/add6cf16-f4c1-3d50-9b28-633b35ca8189",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Blackout",
+        "@id": "https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Circus",
+        "@id": "https://musicbrainz.org/release-group/1e5f92e0-913c-3202-a72c-b068b9f34ce1",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Femme Fatale",
+        "@id": "https://musicbrainz.org/release-group/a7e9d7d2-3c60-472f-b2ba-829de5034179",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Britney Jean",
+        "@id": "https://musicbrainz.org/release-group/c378d06f-d3d0-45a1-924a-46a39e72a2fd",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Greatest Hits: My Prerogative",
+        "@id": "https://musicbrainz.org/release-group/35f4c727-8b32-3457-a2e7-42a697dd39c2",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/CompilationAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "The Singles Collection",
+        "@id": "https://musicbrainz.org/release-group/20c4a0b6-50d5-48d4-aad2-33c93b38bd75",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/CompilationAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "The Collection: Britney Spears",
+        "@id": "https://musicbrainz.org/release-group/53aa0fd3-32f5-43ea-919f-0ddd0d1177b8",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/CompilationAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Oops! I Did It Again: The Best Of Britney Spears",
+        "@id": "https://musicbrainz.org/release-group/6ffb9cdc-2336-45df-877a-541201421d07",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/CompilationAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "The Essential Britney Spears",
+        "@id": "https://musicbrainz.org/release-group/9ecc1aea-289d-4d03-b476-6bbcd1e749d7",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/CompilationAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Live From Las Vegas",
+        "@id": "https://musicbrainz.org/release-group/0c255cd6-2391-4c1e-b1fe-bdfc87130580",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/LiveAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Live: The Femme Fatale Tour",
+        "@id": "https://musicbrainz.org/release-group/3875441e-608a-4280-aa6a-0798291c1ba1",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/LiveAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "B in the Mix: The Remixes",
+        "@id": "https://musicbrainz.org/release-group/a1b16f9c-7b93-3351-9453-0f3545a5f989",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/RemixAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "B in the Mix: The Remixes, Volume 2",
+        "@id": "https://musicbrainz.org/release-group/664197fb-1e5c-4687-9bf4-a178bc2fd68e",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/RemixAlbum",
+        "albumReleaseType": "http://schema.org/AlbumRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "...Baby One More Time",
+        "@id": "https://musicbrainz.org/release-group/1df6c8f7-331d-3219-9eca-1df97816a937",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Sometimes",
+        "@id": "https://musicbrainz.org/release-group/b55a5d6e-d2d5-3ee1-bee2-4a6f7775bd69",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "(You Drive Me) Crazy (The Stop Remix!)",
+        "@id": "https://musicbrainz.org/release-group/50428767-4afb-37c2-9d0c-e8c71cc8d6eb",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Born to Make You Happy",
+        "@id": "https://musicbrainz.org/release-group/c58a37ec-3a2a-30f8-85cd-f584b192ae24",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "From the Bottom of My Broken Heart",
+        "@id": "https://musicbrainz.org/release-group/f13ce399-ce92-387e-bcc3-1b71ca265d9d",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Oops!...I Did It Again",
+        "@id": "https://musicbrainz.org/release-group/6b3d5e28-8367-3044-8e94-4ac730a0c66d",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Lucky",
+        "@id": "https://musicbrainz.org/release-group/6e7a1ca2-cd37-3683-936f-85b740dbbcc3",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Stronger",
+        "@id": "https://musicbrainz.org/release-group/4d018ba8-f05e-4817-8c70-34307161a0fc",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Don't Let Me Be the Last to Know",
+        "@id": "https://musicbrainz.org/release-group/348bf7f4-0237-35e0-8f15-7b1328fa623a",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "I’m a Slave 4 U",
+        "@id": "https://musicbrainz.org/release-group/991f7373-20e2-3834-bfc7-976c75d7645f",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Overprotected",
+        "@id": "https://musicbrainz.org/release-group/7fa6269b-8502-3863-90a6-b491b885044b",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "I'm Not a Girl, Not Yet a Woman",
+        "@id": "https://musicbrainz.org/release-group/4adcd76e-0a18-31fa-9c66-34d55b21e770",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "I Love Rock 'n' Roll",
+        "@id": "https://musicbrainz.org/release-group/84c00d69-a2dc-30ca-b29f-1cf470ff77fb",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": [
+          {
+            "name": "Britney Spears",
+            "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+          },
+          {
+            "name": "Pharrell Williams",
+            "@id": "https://musicbrainz.org/artist/149f91ef-1287-46da-9a8e-87fee02f1471"
+          }
+        ],
+        "name": "Boys",
+        "@id": "https://musicbrainz.org/release-group/af3bb5ad-9d8b-32bd-bc81-a1e203e85028",
+        "creditedTo": "Britney Spears feat. Pharrell Williams",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Everytime",
+        "@id": "https://musicbrainz.org/release-group/9e3a109c-8ef0-34d0-a5e8-e520e9738ede",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": [
+          {
+            "name": "Britney Spears",
+            "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+          },
+          {
+            "name": "Madonna",
+            "@id": "https://musicbrainz.org/artist/79239441-bfd5-4981-a70c-55c3f15c1287"
+          }
+        ],
+        "name": "Me Against the Music",
+        "@id": "https://musicbrainz.org/release-group/1ec6f797-1b67-369d-b5dc-28b7cc003ea0",
+        "creditedTo": "Britney Spears feat. Madonna",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Toxic",
+        "@id": "https://musicbrainz.org/release-group/881c6548-d694-3f54-a01e-c74d1f837af7",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Outrageous",
+        "@id": "https://musicbrainz.org/release-group/52dbc4ef-8546-3586-82e6-57e417da2a82",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "My Prerogative",
+        "@id": "https://musicbrainz.org/release-group/7c265883-d9c2-3423-96c4-17e631eb8caa",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Do Somethin'",
+        "@id": "https://musicbrainz.org/release-group/60263d40-8a93-3564-bac4-4357e4e5008d",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Someday (I Will Understand)",
+        "@id": "https://musicbrainz.org/release-group/ce7edd01-55b5-3a82-a1b1-9ff0a3d17932",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Gimme More",
+        "@id": "https://musicbrainz.org/release-group/deba61bd-fecd-36b3-875e-9842e5aeabc2",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Piece of Me",
+        "@id": "https://musicbrainz.org/release-group/08e908e4-c503-3941-b65d-82f5fc75cfde",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Womanizer",
+        "@id": "https://musicbrainz.org/release-group/007ba5c5-83c9-3377-a9de-1ed1414629b9",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Circus",
+        "@id": "https://musicbrainz.org/release-group/cac5efa7-07e0-3278-90b7-93a8cd380732",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "If U Seek Amy",
+        "@id": "https://musicbrainz.org/release-group/279a13f6-29b6-49f2-a4ec-f07d1a006d94",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "3",
+        "@id": "https://musicbrainz.org/release-group/70d97b9e-8eec-4ae1-a301-81e530fc389d",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Hold It Against Me",
+        "@id": "https://musicbrainz.org/release-group/11e41cf9-a682-4c97-afb2-5dc8e4dfe6a4",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Till the World Ends",
+        "@id": "https://musicbrainz.org/release-group/96adaad0-c7b0-4910-aad8-936aea34f95a",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "I Wanna Go",
+        "@id": "https://musicbrainz.org/release-group/f73c158e-1c59-4bb0-b920-6d466c35cad8",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Criminal",
+        "@id": "https://musicbrainz.org/release-group/cea67a92-db08-4950-bdc6-6d52fc622243",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": [
+          {
+            "name": "will.i.am",
+            "@id": "https://musicbrainz.org/artist/d574c9bd-46f6-440a-8d6a-8412a283eeb1"
+          },
+          {
+            "name": "Britney Spears",
+            "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+          }
+        ],
+        "name": "Scream & Shout",
+        "@id": "https://musicbrainz.org/release-group/bf1bd494-8b29-4ca6-b791-48ba47e836c2",
+        "creditedTo": "will.i.am & Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      },
+      {
+        "byArtist": {
+          "name": "Britney Spears",
+          "@id": "https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76"
+        },
+        "name": "Work Bitch",
+        "@id": "https://musicbrainz.org/release-group/7cb2c3e4-cc60-41e2-91b3-bb6464775418",
+        "creditedTo": "Britney Spears",
+        "albumProductionType": "http://schema.org/StudioAlbum",
+        "albumReleaseType": "http://schema.org/SingleRelease",
+        "@type": "MusicAlbum"
+      }
+    ],
+    "foundingDate": "1981-12-02",
+    "birthPlace": {
+      "containedIn": {
+        "containedIn": {
+          "name": "United States",
+          "@id": "https://musicbrainz.org/area/489ce91b-6658-3307-9877-795b68554c98",
+          "@type": "Country"
+        },
+        "name": "Mississippi",
+        "@id": "https://musicbrainz.org/area/6fddb177-f3fc-4c30-9d49-9c7e949fe0bc",
+        "@type": "AdministrativeArea"
+      },
+      "name": "McComb",
+      "@id": "https://musicbrainz.org/area/ff7eb755-8d72-447f-a5f2-d7a4350cafd5",
+      "@type": "City"
+    }
+  },
+  "name": "Blackout",
+  "sameAs": [
+    "http://en.wikipedia.org/wiki/Blackout_(Britney_Spears_album)",
+    "http://www.allmusic.com/album/mw0000487827",
+    "http://www.discogs.com/master/30118",
+    "http://www.wikidata.org/wiki/Q192755"
+  ],
+  "albumProductionType": "http://schema.org/StudioAlbum",
+  "albumReleaseType": "http://schema.org/AlbumRelease",
+  "image": {
+    "thumbnail": [
+      {
+        "contentUrl": "//coverartarchive.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8/front-250.jpg",
+        "encodingFormat": "jpg",
+        "@type": "ImageObject"
+      },
+      {
+        "contentUrl": "//coverartarchive.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8/front-500.jpg",
+        "encodingFormat": "jpg",
+        "@type": "ImageObject"
+      }
+    ],
+    "contentUrl": "//coverartarchive.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8/front.jpg",
+    "representativeOfPage": "True",
+    "encodingFormat": "jpg",
+    "@type": "ImageObject"
+  },
+  "albumRelease": [
+    {
+      "name": "Blackout",
+      "@id": "https://musicbrainz.org/release/7ccc2cfb-d8f0-4f38-afd8-f4961e85de52",
+      "@type": "MusicRelease"
+    },
+    {
+      "name": "Blackout",
+      "@id": "https://musicbrainz.org/release/d285abd9-1c68-38f8-a6c4-1b0147292c80",
+      "@type": "MusicRelease"
+    },
+    {
+      "name": "Blackout",
+      "@id": "https://musicbrainz.org/release/39b6426d-0377-4b44-965e-707a4e495645",
+      "@type": "MusicRelease"
+    },
+    {
+      "name": "Blackout",
+      "@id": "https://musicbrainz.org/release/a846c16e-4307-4cc1-a1a4-47ee16a2f9d8",
+      "@type": "MusicRelease"
+    },
+    {
+      "name": "Blackout",
+      "@id": "https://musicbrainz.org/release/0055dbfb-9bf5-45d3-9c11-069128ee9212",
+      "@type": "MusicRelease"
+    },
+    {
+      "name": "ブラックアウト",
+      "@id": "https://musicbrainz.org/release/1612c9c7-fcac-4ba3-957b-832015a0d2d8",
+      "@type": "MusicRelease"
+    },
+    {
+      "name": "Blackout",
+      "@id": "https://musicbrainz.org/release/389900fa-b01d-3b66-87fd-76ac2917981a",
+      "@type": "MusicRelease"
+    }
+  ],
+  "creditedTo": "Britney Spears"
+}

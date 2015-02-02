@@ -35,6 +35,8 @@ var clients = {
 
 Object.keys(clients).forEach (function (key) {
     clients[key].namespaces.addPrefix('dcterms', 'http://purl.org/dc/terms/');
+    clients[key].namespaces.addPrefix('li', 'https://licensedb.org/ns#');
+    clients[key].namespaces.addPrefix('cc', 'http://creativecommons.org/ns#');
 });
 
 suite ('Query', function () {
@@ -184,6 +186,56 @@ suite ('Query', function () {
                 assert.equal (N3.Util.getLiteralLanguage (sorted[90].object), 'ko');
                 assert.equal (N3.Util.getLiteralValue (sorted[90].object),
                     '저작자표시-동일조건변경허락 3.0 Unported');
+            });
+        });
+    });
+});
+
+suite ('Search', function () {
+    leche.withData (clients, function (wf) {
+        var prefix = this.title.replace ('with ', '') + ': ';
+
+        test (prefix + 'single rdf:type', function () {
+            var result = wf.search ('li:License', []);
+
+            return result.then (function (data) {
+                var sorted = _(data).sortBy();
+
+                assert.equal (sorted.length, 610);
+                assert.equal (sorted[0], 'http://creativecommons.org/licenses/by-nc-nd/2.0/');
+            });
+        });
+
+        test (prefix + 'multiple rdf:types', function () {
+            var result = wf.search ([ 'li:License', 'cc:License' ]);
+
+            return result.then (function (data) {
+                var sorted = _(data).sortBy();
+
+                assert.equal (sorted.length, 1189);
+                assert.equal (sorted[0], 'http://creativecommons.org/licenses/by-nc-nd/2.0/');
+            });
+        });
+
+        test (prefix + 'single predicate', function () {
+            var result = wf.search ([], 'li:plaintext');
+
+            return result.then (function (data) {
+                var sorted = _(data).sortBy();
+
+                assert.equal (sorted.length, 31);
+                assert.equal (sorted[30], 'http://www.perlfoundation.org/artistic_license_2_0');
+            });
+        });
+
+        test (prefix + 'multiple predicates', function () {
+            var result = wf.search (null, [ 'li:plaintext', 'cc:requires' ]);
+
+            return result.then (function (data) {
+                var sorted = _(data).sortBy();
+
+                assert.equal (sorted.length, 1359);
+                assert.equal (sorted[0], 'http://creativecommons.org/licenses/by-nc-nd/2.0/');
             });
         });
     });

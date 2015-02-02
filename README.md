@@ -13,8 +13,8 @@ results to be fed directly into template languages like mustache.
 NOTE: the work here should be considered a prototype or proof of concept.  I'm not using
 this in anything yet.
 
-example
--------
+Query
+-----
 
 Here is a basic example which asks wikidata for some information about Britney Spears' Blackout
 album:
@@ -50,6 +50,39 @@ has "performer.artist" as a path, instead of just "performer").
 
 Run `node examples/wikidata.js` to see this query in action, or see the other examples
 in the examples folder.
+
+
+Search
+------
+
+Sometimes you want to start with a list of a certain kind of thing, but do not have an
+identifier as a starting point.  If you're interacting with a document instead of a large
+dataset it may be useful to list all the data of a certain type from that document.
+
+For example, data/blackout.ttl contains some information about Britney Spears' music, if I
+wanted to list all the albums in that document I would be inclined to look for subjects
+which have rdf:type schema:MusicAlbum.  However, the creator of the document may have
+omitted the type if it the type was already implied by a different predicate.  For example a
+triple with the schema:albumReleaseType predicate can only have an album as a subject.
+
+If we want to process such documents without using a reasoner it may be useful to just
+manually search for subjects which either have a the required rdf:type or have one or
+more of a set of predicates which imply a particular rdf:type.
+
+    var wf = find.connect('file:file//data/blackout.jsonld');
+
+    wf.search("schema:MusicAlbum", "schema:albumReleaseType").then (function (subjects) {
+        // ...
+    });
+
+
+`wf.search()` takes zero or more values for rdf:type, and zero or more values for the
+predicate, for example:
+
+    wf.search (null, [ "schema:albumProductionType", "schema:albumReleaseType" ]);
+    wf.search ([],   [ "schema:albumProductionType", "schema:albumReleaseType" ]);
+    wf.search ("schema:MusicAlbum", []);
+    wf.search ([ "schema:MusicAlbum", "frbr:Expression" ], null);
 
 
 Running tests
