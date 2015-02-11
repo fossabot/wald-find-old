@@ -14,5 +14,5 @@ node_modules/n3/browser/n3-browser.js:
 	cd node_modules/n3 && npm install && npm run browser
 
 clean:
-	$(RM) node_modules js/find*.js
+	$(RM) -r node_modules js/find*.js
 

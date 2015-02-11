@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/warpr/wald-find/issues"
   },
+    "browser": {
+        "n3": "n3/browser/n3-browser"
+    },
   "dependencies": {
     "browserify": "^8.1.1",
     "hogan.js": "^3.0.2",
