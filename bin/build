@@ -1,8 +1,0 @@
-#!/bin/sh
-
-BROWSERIFY_OPTIONS="--exclude xmlhttprequest --require ./lib/find:find"
-
-node_modules/.bin/browserify $BROWSERIFY_OPTIONS --outfile js/find.js
-node_modules/.bin/browserify $BROWSERIFY_OPTIONS --outfile js/find.debug.js --debug
-node_modules/.bin/uglifyjs js/find.js --screw-ie8 --output js/find.min.js
-

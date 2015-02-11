@@ -20,15 +20,14 @@ require ('../lib/drivers/ldf') (find.drivers);
 require ('../lib/drivers/ldfb') (find.drivers);
 require ('../lib/drivers/file') (find.drivers);
 
-var licensedb = 'http://localhost:4014/licensedb';
+// var licensedb = 'http://localhost:4014/licensedb';
 
 var clients = {
-    // disable the ldf-client test for now as it is broken on node 0.10.x when combined with
-    // the file-jsonld test.
+    // The ldf clients are temporarily disabled as they are broken on node.js 0.10.x, but
+    // ldf-server only runs on node 0.10.x: https://github.com/RubenVerborgh/HDT-Node/issues/3
 
-    // FIXME: enable this again when travis-ci supports io.js 1.0.x
     // 'ldf-client': find.connect ('ldf:' + licensedb),
-    'ldf-b': find.connect ('ldfb:' + licensedb),
+    // 'ldf-b': find.connect ('ldfb:' + licensedb),
     'file-ttl': find.connect ('file:file://data/licensedb.2014-01-19.ttl'),
     'file-jsonld': find.connect ('file:file://data/licensedb.2014-01-19.jsonld')
 };
