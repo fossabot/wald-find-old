@@ -33,9 +33,9 @@ var clients = {
 };
 
 Object.keys(clients).forEach (function (key) {
-    clients[key].namespaces.addPrefix('dcterms', 'http://purl.org/dc/terms/');
-    clients[key].namespaces.addPrefix('li', 'https://licensedb.org/ns#');
-    clients[key].namespaces.addPrefix('cc', 'http://creativecommons.org/ns#');
+    clients[key].namespaces.addPrefix ('dcterms', 'http://purl.org/dc/terms/');
+    clients[key].namespaces.addPrefix ('li', 'https://licensedb.org/ns#');
+    clients[key].namespaces.addPrefix ('cc', 'http://creativecommons.org/ns#');
 });
 
 suite ('Query', function () {
