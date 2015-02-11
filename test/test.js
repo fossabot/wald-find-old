@@ -239,3 +239,28 @@ suite ('Search', function () {
         });
     });
 });
+
+suite ('Reverse query', function () {
+    leche.withData (clients, function (wf) {
+        var prefix = this.title.replace ('with ', '') + ': ';
+
+        test (prefix + 'reverse in array', function () {
+            var result = wf.query ('http://creativecommons.org/licenses/by-sa/3.0/', {
+                id: '@id',
+                name: 'li:name',
+                sourceFor: [ wf.reverse ('dcterms:source', {
+                    id: '@id',
+                    name: 'li:name',
+                }) ]
+            }).then (find.normalizeModel);
+
+            return result.then (function (data) {
+                var sourceFor = _(data.sourceFor).chain ().pluck ('name').sort ().value ();
+
+                assert.equal (data.id, 'http://creativecommons.org/licenses/by-sa/3.0/');
+                assert.equal (sourceFor[0], 'CC BY-SA 3.0 AT');
+                assert.equal (sourceFor[32], 'CC BY-SA 3.0 US');
+            });
+        });
+    });
+});
