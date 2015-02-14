@@ -1,4 +1,6 @@
 *~
+\#*\#
+.\#*
 *.pyc
 /bin/flake8
 /bin/ipython

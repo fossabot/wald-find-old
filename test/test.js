@@ -20,14 +20,15 @@ require ('../lib/drivers/ldf') (find.drivers);
 require ('../lib/drivers/ldfb') (find.drivers);
 require ('../lib/drivers/file') (find.drivers);
 
-// var licensedb = 'http://localhost:4014/licensedb';
+var licensedb = 'http://localhost:4014/licensedb';
 
 var clients = {
-    // The ldf clients are temporarily disabled as they are broken on node.js 0.10.x, but
-    // ldf-server only runs on node 0.10.x: https://github.com/RubenVerborgh/HDT-Node/issues/3
+    // FIXME: the ldf-client driver works in isolation in this test, but not when the
+    // other ldf driver is loaded.  I don't know why, but for now I'm disabling it in
+    // this test.
 
     // 'ldf-client': find.connect ('ldf:' + licensedb),
-    // 'ldf-b': find.connect ('ldfb:' + licensedb),
+    'ldf-b': find.connect ('ldfb:' + licensedb),
     'file-ttl': find.connect ('file:file://data/licensedb.2014-01-19.ttl'),
     'file-jsonld': find.connect ('file:file://data/licensedb.2014-01-19.jsonld')
 };

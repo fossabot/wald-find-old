@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Temporarily disabled as this repository requires io.js, and ldf-server is
-# only compatible with node.js 0.10.x.
-
-# node_modules/.bin/ldf-server etc/ldf-server.json 4014 2 &
-# sleep 4s
+node_modules/.bin/ldf-server etc/ldf-server.json 4014 2 &
+sleep 4s
 
