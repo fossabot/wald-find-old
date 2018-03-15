@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwarpr%2Fwald-find-old.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwarpr%2Fwald-find-old?ref=badge_shield)
+
 
 wald:find
 =========
@@ -99,3 +101,7 @@ Copyright (C) 2015  Kuno Woudt <kuno@frob.nl>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of copyleft-next 0.3.0.  See [LICENSE.txt](LICENSE.txt).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwarpr%2Fwald-find-old.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwarpr%2Fwald-find-old?ref=badge_large)
